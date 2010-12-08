@@ -1,0 +1,2451 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="AdvServicesModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2005" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+        <EntityContainer Name="AdvServicesModelStoreContainer">
+          <EntitySet Name="Accounts" EntityType="AdvServicesModel.Store.Accounts" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="AdvCar" EntityType="AdvServicesModel.Store.AdvCar" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="AdvCar_Tmp" EntityType="AdvServicesModel.Store.AdvCar_Tmp" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="AdvCarDetail" EntityType="AdvServicesModel.Store.AdvCarDetail" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="AdvCarDetail_Tmp" EntityType="AdvServicesModel.Store.AdvCarDetail_Tmp" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="AdvComputer" EntityType="AdvServicesModel.Store.AdvComputer" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="AdvComputer_Tmp" EntityType="AdvServicesModel.Store.AdvComputer_Tmp" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="AdvComputerDetail" EntityType="AdvServicesModel.Store.AdvComputerDetail" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="AdvComputerDetail_Tmp" EntityType="AdvServicesModel.Store.AdvComputerDetail_Tmp" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="AdvDomestic" EntityType="AdvServicesModel.Store.AdvDomestic" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="AdvDomestic_Tmp" EntityType="AdvServicesModel.Store.AdvDomestic_Tmp" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="AdvDomesticDetail" EntityType="AdvServicesModel.Store.AdvDomesticDetail" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="AdvDomesticDetail_Tmp" EntityType="AdvServicesModel.Store.AdvDomesticDetail_Tmp" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="AdvEstate" EntityType="AdvServicesModel.Store.AdvEstate" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="AdvEstate_Tmp" EntityType="AdvServicesModel.Store.AdvEstate_Tmp" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="AdvEstateDetail" EntityType="AdvServicesModel.Store.AdvEstateDetail" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="AdvEstateDetail_Tmp" EntityType="AdvServicesModel.Store.AdvEstateDetail_Tmp" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="AdvFashion" EntityType="AdvServicesModel.Store.AdvFashion" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="AdvFashion_Tmp" EntityType="AdvServicesModel.Store.AdvFashion_Tmp" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="AdvFashionDetail" EntityType="AdvServicesModel.Store.AdvFashionDetail" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="AdvFashionDetail_Tmp" EntityType="AdvServicesModel.Store.AdvFashionDetail_Tmp" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="AdvMakeFriend" EntityType="AdvServicesModel.Store.AdvMakeFriend" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="AdvMobile" EntityType="AdvServicesModel.Store.AdvMobile" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="AdvMobile_Tmp" EntityType="AdvServicesModel.Store.AdvMobile_Tmp" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="AdvMobileDetail" EntityType="AdvServicesModel.Store.AdvMobileDetail" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="AdvMobileDetail_Tmp" EntityType="AdvServicesModel.Store.AdvMobileDetail_Tmp" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="AdvMotorcycle" EntityType="AdvServicesModel.Store.AdvMotorcycle" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="AdvMotorcycle_Tmp" EntityType="AdvServicesModel.Store.AdvMotorcycle_Tmp" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="AdvMotorcycleDetail" EntityType="AdvServicesModel.Store.AdvMotorcycleDetail" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="AdvMotorcycleDetail_Tmp" EntityType="AdvServicesModel.Store.AdvMotorcycleDetail_Tmp" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="AdvStock" EntityType="AdvServicesModel.Store.AdvStock" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="AdvStock_Tmp" EntityType="AdvServicesModel.Store.AdvStock_Tmp" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="AdvStockDetail" EntityType="AdvServicesModel.Store.AdvStockDetail" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="AdvStockDetail_Tmp" EntityType="AdvServicesModel.Store.AdvStockDetail_Tmp" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="AdvWork" EntityType="AdvServicesModel.Store.AdvWork" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="AdvWork_Tmp" EntityType="AdvServicesModel.Store.AdvWork_Tmp" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="AdvWorkDetail" EntityType="AdvServicesModel.Store.AdvWorkDetail" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="AdvWorkDetail_Tmp" EntityType="AdvServicesModel.Store.AdvWorkDetail_Tmp" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="ChatBox" EntityType="AdvServicesModel.Store.ChatBox" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="email" EntityType="AdvServicesModel.Store.email" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="On_User" EntityType="AdvServicesModel.Store.On_User" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Ref_Banner" EntityType="AdvServicesModel.Store.Ref_Banner" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Ref_District" EntityType="AdvServicesModel.Store.Ref_District" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Ref_Info" EntityType="AdvServicesModel.Store.Ref_Info" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Ref_Menu" EntityType="AdvServicesModel.Store.Ref_Menu" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Ref_Province" EntityType="AdvServicesModel.Store.Ref_Province" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Ref_Type" EntityType="AdvServicesModel.Store.Ref_Type" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Ref_Unicode" EntityType="AdvServicesModel.Store.Ref_Unicode" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="sysdiagrams" EntityType="AdvServicesModel.Store.sysdiagrams" store:Type="Tables" Schema="dbo" />
+        </EntityContainer>
+        <EntityType Name="Accounts">
+          <Key>
+            <PropertyRef Name="AccID" />
+          </Key>
+          <Property Name="AccID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="UserName" Type="nvarchar" MaxLength="20" />
+          <Property Name="AccPwd" Type="nvarchar" MaxLength="30" />
+          <Property Name="PassPort" Type="nvarchar" MaxLength="20" />
+          <Property Name="Email" Type="nvarchar" MaxLength="50" />
+          <Property Name="FullName" Type="nvarchar" MaxLength="50" />
+          <Property Name="Address" Type="nvarchar" MaxLength="100" />
+          <Property Name="Mobile" Type="nvarchar" MaxLength="30" />
+          <Property Name="CurrID" Type="tinyint" />
+          <Property Name="Balance" Type="money" />
+          <Property Name="Deposit" Type="money" />
+          <Property Name="Reason" Type="nvarchar" MaxLength="500" />
+          <Property Name="CreatedDate" Type="datetime" />
+          <Property Name="AccRoleID" Type="tinyint" Nullable="false" />
+          <Property Name="UserUpdate" Type="nvarchar" MaxLength="20" />
+          <Property Name="TimeUpdate" Type="datetime" />
+          <Property Name="Avatar" Type="nvarchar" MaxLength="100" />
+          <Property Name="Active" Type="bit" />
+          <Property Name="LevelID" Type="tinyint" />
+          <Property Name="ThankedNum" Type="int" Nullable="false" />
+          <Property Name="SentNum" Type="int" Nullable="false" />
+          <Property Name="IP" Type="char" MaxLength="15" />
+        </EntityType>
+        <EntityType Name="AdvCar">
+          <Key>
+            <PropertyRef Name="AdvID" />
+          </Key>
+          <Property Name="AdvID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="AccID" Type="int" />
+          <Property Name="ProvinceID" Type="int" />
+          <Property Name="DistrictID" Type="int" />
+          <Property Name="TypeID" Type="int" />
+          <Property Name="Header" Type="nvarchar" MaxLength="500" />
+          <Property Name="Contain" Type="nvarchar" />
+          <Property Name="ContactInfo" Type="nvarchar" MaxLength="100" />
+          <Property Name="Picture" Type="nvarchar" MaxLength="100" />
+          <Property Name="Cost" Type="nvarchar" MaxLength="30" />
+          <Property Name="NumReply" Type="int" />
+          <Property Name="NumRead" Type="int" />
+          <Property Name="AssignTime" Type="nvarchar" MaxLength="100" />
+          <Property Name="CreateDate" Type="datetime" />
+          <Property Name="TimeUpdate" Type="datetime" />
+          <Property Name="IsHide" Type="bit" Nullable="false" />
+          <Property Name="IsClose" Type="bit" Nullable="false" />
+          <Property Name="OriginalLink" Type="nvarchar" MaxLength="300" />
+          <Property Name="Note" Type="nvarchar" MaxLength="50" />
+          <Property Name="IP" Type="char" MaxLength="15" />
+        </EntityType>
+        <EntityType Name="AdvCar_Tmp">
+          <Key>
+            <PropertyRef Name="AdvID" />
+          </Key>
+          <Property Name="AdvID" Type="int" Nullable="false" />
+          <Property Name="Header" Type="nvarchar" MaxLength="500" />
+          <Property Name="Contain" Type="nvarchar" />
+          <Property Name="ContactInfo" Type="nvarchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="AdvCarDetail">
+          <Key>
+            <PropertyRef Name="AdvDetailID" />
+          </Key>
+          <Property Name="AdvDetailID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="AdvID" Type="int" Nullable="false" />
+          <Property Name="AccID" Type="int" Nullable="false" />
+          <Property Name="Header" Type="nvarchar" MaxLength="500" />
+          <Property Name="Contain" Type="nvarchar" />
+          <Property Name="CreateDate" Type="datetime" />
+          <Property Name="IsHide" Type="bit" />
+          <Property Name="IsClose" Type="bit" />
+          <Property Name="IP" Type="char" MaxLength="15" />
+        </EntityType>
+        <EntityType Name="AdvCarDetail_Tmp">
+          <Key>
+            <PropertyRef Name="AdvDetailID" />
+          </Key>
+          <Property Name="AdvDetailID" Type="int" Nullable="false" />
+          <Property Name="Header" Type="nvarchar" MaxLength="500" />
+          <Property Name="Contain" Type="nvarchar" />
+        </EntityType>
+        <EntityType Name="AdvComputer">
+          <Key>
+            <PropertyRef Name="AdvID" />
+          </Key>
+          <Property Name="AdvID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="AccID" Type="int" />
+          <Property Name="ProvinceID" Type="int" />
+          <Property Name="DistrictID" Type="int" />
+          <Property Name="TypeID" Type="int" />
+          <Property Name="Header" Type="nvarchar" MaxLength="500" />
+          <Property Name="Contain" Type="nvarchar" />
+          <Property Name="ContactInfo" Type="nvarchar" MaxLength="100" />
+          <Property Name="Picture" Type="nvarchar" MaxLength="100" />
+          <Property Name="Cost" Type="nvarchar" MaxLength="30" />
+          <Property Name="NumReply" Type="int" />
+          <Property Name="NumRead" Type="int" />
+          <Property Name="AssignTime" Type="nvarchar" MaxLength="100" />
+          <Property Name="CreateDate" Type="datetime" />
+          <Property Name="TimeUpdate" Type="datetime" />
+          <Property Name="IsHide" Type="bit" Nullable="false" />
+          <Property Name="IsClose" Type="bit" Nullable="false" />
+          <Property Name="OriginalLink" Type="nvarchar" MaxLength="300" />
+          <Property Name="Note" Type="nvarchar" MaxLength="50" />
+          <Property Name="IP" Type="char" MaxLength="15" />
+        </EntityType>
+        <EntityType Name="AdvComputer_Tmp">
+          <Key>
+            <PropertyRef Name="AdvID" />
+          </Key>
+          <Property Name="AdvID" Type="int" Nullable="false" />
+          <Property Name="Header" Type="nvarchar" MaxLength="500" />
+          <Property Name="Contain" Type="nvarchar" />
+          <Property Name="ContactInfo" Type="nvarchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="AdvComputerDetail">
+          <Key>
+            <PropertyRef Name="AdvDetailID" />
+          </Key>
+          <Property Name="AdvDetailID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="AdvID" Type="int" Nullable="false" />
+          <Property Name="AccID" Type="int" Nullable="false" />
+          <Property Name="Header" Type="nvarchar" MaxLength="500" />
+          <Property Name="Contain" Type="nvarchar" />
+          <Property Name="CreateDate" Type="datetime" />
+          <Property Name="IsHide" Type="bit" />
+          <Property Name="IsClose" Type="bit" />
+          <Property Name="IP" Type="char" MaxLength="15" />
+        </EntityType>
+        <EntityType Name="AdvComputerDetail_Tmp">
+          <Key>
+            <PropertyRef Name="AdvDetailID" />
+          </Key>
+          <Property Name="AdvDetailID" Type="int" Nullable="false" />
+          <Property Name="Header" Type="nvarchar" MaxLength="500" />
+          <Property Name="Contain" Type="nvarchar" />
+        </EntityType>
+        <EntityType Name="AdvDomestic">
+          <Key>
+            <PropertyRef Name="AdvID" />
+          </Key>
+          <Property Name="AdvID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="AccID" Type="int" />
+          <Property Name="ProvinceID" Type="int" />
+          <Property Name="DistrictID" Type="int" />
+          <Property Name="TypeID" Type="int" />
+          <Property Name="Header" Type="nvarchar" MaxLength="500" />
+          <Property Name="Contain" Type="nvarchar" />
+          <Property Name="ContactInfo" Type="nvarchar" MaxLength="100" />
+          <Property Name="Picture" Type="nvarchar" MaxLength="100" />
+          <Property Name="Cost" Type="nvarchar" MaxLength="30" />
+          <Property Name="NumReply" Type="int" />
+          <Property Name="NumRead" Type="int" />
+          <Property Name="AssignTime" Type="nvarchar" MaxLength="100" />
+          <Property Name="CreateDate" Type="datetime" />
+          <Property Name="TimeUpdate" Type="datetime" />
+          <Property Name="IsHide" Type="bit" Nullable="false" />
+          <Property Name="IsClose" Type="bit" Nullable="false" />
+          <Property Name="OriginalLink" Type="nvarchar" MaxLength="300" />
+          <Property Name="Note" Type="nvarchar" MaxLength="50" />
+          <Property Name="IP" Type="char" MaxLength="15" />
+        </EntityType>
+        <EntityType Name="AdvDomestic_Tmp">
+          <Key>
+            <PropertyRef Name="AdvID" />
+          </Key>
+          <Property Name="AdvID" Type="int" Nullable="false" />
+          <Property Name="Header" Type="nvarchar" MaxLength="500" />
+          <Property Name="Contain" Type="nvarchar" />
+          <Property Name="ContactInfo" Type="nvarchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="AdvDomesticDetail">
+          <Key>
+            <PropertyRef Name="AdvDetailID" />
+          </Key>
+          <Property Name="AdvDetailID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="AdvID" Type="int" Nullable="false" />
+          <Property Name="AccID" Type="int" Nullable="false" />
+          <Property Name="Header" Type="nvarchar" MaxLength="500" />
+          <Property Name="Contain" Type="nvarchar" />
+          <Property Name="CreateDate" Type="datetime" />
+          <Property Name="IsHide" Type="bit" />
+          <Property Name="IsClose" Type="bit" />
+          <Property Name="IP" Type="char" MaxLength="15" />
+        </EntityType>
+        <EntityType Name="AdvDomesticDetail_Tmp">
+          <Key>
+            <PropertyRef Name="AdvDetailID" />
+          </Key>
+          <Property Name="AdvDetailID" Type="int" Nullable="false" />
+          <Property Name="Header" Type="nvarchar" MaxLength="500" />
+          <Property Name="Contain" Type="nvarchar" />
+        </EntityType>
+        <EntityType Name="AdvEstate">
+          <Key>
+            <PropertyRef Name="AdvID" />
+          </Key>
+          <Property Name="AdvID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="AccID" Type="int" />
+          <Property Name="ProvinceID" Type="int" />
+          <Property Name="DistrictID" Type="int" />
+          <Property Name="TypeID" Type="int" />
+          <Property Name="Header" Type="nvarchar" MaxLength="500" />
+          <Property Name="Contain" Type="nvarchar" />
+          <Property Name="ContactInfo" Type="nvarchar" MaxLength="100" />
+          <Property Name="Picture" Type="nvarchar" MaxLength="100" />
+          <Property Name="Cost" Type="nvarchar" MaxLength="30" />
+          <Property Name="NumReply" Type="int" />
+          <Property Name="NumRead" Type="int" />
+          <Property Name="AssignTime" Type="nvarchar" MaxLength="100" />
+          <Property Name="CreateDate" Type="datetime" />
+          <Property Name="TimeUpdate" Type="datetime" />
+          <Property Name="IsHide" Type="bit" Nullable="false" />
+          <Property Name="IsClose" Type="bit" Nullable="false" />
+          <Property Name="OriginalLink" Type="nvarchar" MaxLength="300" />
+          <Property Name="Note" Type="nvarchar" MaxLength="50" />
+          <Property Name="IP" Type="char" MaxLength="15" />
+        </EntityType>
+        <EntityType Name="AdvEstate_Tmp">
+          <Key>
+            <PropertyRef Name="AdvID" />
+          </Key>
+          <Property Name="AdvID" Type="int" Nullable="false" />
+          <Property Name="Header" Type="nvarchar" MaxLength="500" />
+          <Property Name="Contain" Type="nvarchar" />
+          <Property Name="ContactInfo" Type="nvarchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="AdvEstateDetail">
+          <Key>
+            <PropertyRef Name="AdvDetailID" />
+          </Key>
+          <Property Name="AdvDetailID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="AdvID" Type="int" Nullable="false" />
+          <Property Name="AccID" Type="int" Nullable="false" />
+          <Property Name="Header" Type="nvarchar" MaxLength="500" />
+          <Property Name="Contain" Type="nvarchar" />
+          <Property Name="CreateDate" Type="datetime" />
+          <Property Name="IsHide" Type="bit" />
+          <Property Name="IsClose" Type="bit" />
+          <Property Name="IP" Type="char" MaxLength="15" />
+        </EntityType>
+        <EntityType Name="AdvEstateDetail_Tmp">
+          <Key>
+            <PropertyRef Name="AdvDetailID" />
+          </Key>
+          <Property Name="AdvDetailID" Type="int" Nullable="false" />
+          <Property Name="Header" Type="nvarchar" MaxLength="500" />
+          <Property Name="Contain" Type="nvarchar" />
+        </EntityType>
+        <EntityType Name="AdvFashion">
+          <Key>
+            <PropertyRef Name="AdvID" />
+          </Key>
+          <Property Name="AdvID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="AccID" Type="int" />
+          <Property Name="ProvinceID" Type="int" />
+          <Property Name="DistrictID" Type="int" />
+          <Property Name="TypeID" Type="int" />
+          <Property Name="Header" Type="nvarchar" MaxLength="500" />
+          <Property Name="Contain" Type="nvarchar" />
+          <Property Name="ContactInfo" Type="nvarchar" MaxLength="100" />
+          <Property Name="Picture" Type="nvarchar" MaxLength="100" />
+          <Property Name="Cost" Type="nvarchar" MaxLength="30" />
+          <Property Name="NumReply" Type="int" />
+          <Property Name="NumRead" Type="int" />
+          <Property Name="AssignTime" Type="nvarchar" MaxLength="100" />
+          <Property Name="CreateDate" Type="datetime" />
+          <Property Name="TimeUpdate" Type="datetime" />
+          <Property Name="IsHide" Type="bit" Nullable="false" />
+          <Property Name="IsClose" Type="bit" Nullable="false" />
+          <Property Name="OriginalLink" Type="nvarchar" MaxLength="300" />
+          <Property Name="Note" Type="nvarchar" MaxLength="50" />
+          <Property Name="IP" Type="char" MaxLength="15" />
+        </EntityType>
+        <EntityType Name="AdvFashion_Tmp">
+          <Key>
+            <PropertyRef Name="AdvID" />
+          </Key>
+          <Property Name="AdvID" Type="int" Nullable="false" />
+          <Property Name="Header" Type="nvarchar" MaxLength="500" />
+          <Property Name="Contain" Type="nvarchar" />
+          <Property Name="ContactInfo" Type="nvarchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="AdvFashionDetail">
+          <Key>
+            <PropertyRef Name="AdvDetailID" />
+          </Key>
+          <Property Name="AdvDetailID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="AdvID" Type="int" Nullable="false" />
+          <Property Name="AccID" Type="int" Nullable="false" />
+          <Property Name="Header" Type="nvarchar" MaxLength="500" />
+          <Property Name="Contain" Type="nvarchar" />
+          <Property Name="CreateDate" Type="datetime" />
+          <Property Name="IsHide" Type="bit" />
+          <Property Name="IsClose" Type="bit" />
+          <Property Name="IP" Type="char" MaxLength="15" />
+        </EntityType>
+        <EntityType Name="AdvFashionDetail_Tmp">
+          <Key>
+            <PropertyRef Name="AdvDetailID" />
+          </Key>
+          <Property Name="AdvDetailID" Type="int" Nullable="false" />
+          <Property Name="Header" Type="nvarchar" MaxLength="500" />
+          <Property Name="Contain" Type="nvarchar" />
+        </EntityType>
+        <EntityType Name="AdvMakeFriend">
+          <Key>
+            <PropertyRef Name="AdvID" />
+          </Key>
+          <Property Name="AdvID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="Email" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="Password" Type="nvarchar" Nullable="false" MaxLength="100" />
+          <Property Name="Sex" Type="tinyint" Nullable="false" />
+          <Property Name="Degree" Type="tinyint" Nullable="false" />
+          <Property Name="MariedStatus" Type="tinyint" Nullable="false" />
+          <Property Name="Objective" Type="tinyint" Nullable="false" />
+          <Property Name="Age" Type="tinyint" Nullable="false" />
+          <Property Name="Height" Type="tinyint" Nullable="false" />
+          <Property Name="Weight" Type="tinyint" Nullable="false" />
+          <Property Name="YahooNick" Type="nvarchar" MaxLength="50" />
+          <Property Name="ProvinceID" Type="int" Nullable="false" />
+          <Property Name="Profile" Type="nvarchar" Nullable="false" />
+          <Property Name="LookingFor" Type="nvarchar" Nullable="false" />
+          <Property Name="CreatedDate" Type="datetime" />
+          <Property Name="LastLoginDate" Type="datetime" />
+          <Property Name="Point" Type="int" Nullable="false" />
+          <Property Name="Picture" Type="nvarchar" MaxLength="256" />
+          <Property Name="Active" Type="bit" Nullable="false" />
+          <Property Name="AlertCount" Type="int" Nullable="false" />
+          <Property Name="OriginalLink" Type="nvarchar" Nullable="false" MaxLength="400" />
+        </EntityType>
+        <EntityType Name="AdvMobile">
+          <Key>
+            <PropertyRef Name="AdvID" />
+          </Key>
+          <Property Name="AdvID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="AccID" Type="int" />
+          <Property Name="ProvinceID" Type="int" />
+          <Property Name="DistrictID" Type="int" />
+          <Property Name="TypeID" Type="int" />
+          <Property Name="Header" Type="nvarchar" MaxLength="500" />
+          <Property Name="Contain" Type="nvarchar" />
+          <Property Name="ContactInfo" Type="nvarchar" MaxLength="100" />
+          <Property Name="Picture" Type="nvarchar" MaxLength="100" />
+          <Property Name="Cost" Type="nvarchar" MaxLength="30" />
+          <Property Name="NumReply" Type="int" />
+          <Property Name="NumRead" Type="int" />
+          <Property Name="AssignTime" Type="nvarchar" MaxLength="100" />
+          <Property Name="CreateDate" Type="datetime" />
+          <Property Name="TimeUpdate" Type="datetime" />
+          <Property Name="IsHide" Type="bit" Nullable="false" />
+          <Property Name="IsClose" Type="bit" Nullable="false" />
+          <Property Name="OriginalLink" Type="nvarchar" MaxLength="300" />
+          <Property Name="Note" Type="nvarchar" MaxLength="50" />
+          <Property Name="IP" Type="char" MaxLength="15" />
+        </EntityType>
+        <EntityType Name="AdvMobile_Tmp">
+          <Key>
+            <PropertyRef Name="AdvID" />
+          </Key>
+          <Property Name="AdvID" Type="int" Nullable="false" />
+          <Property Name="Header" Type="nvarchar" MaxLength="500" />
+          <Property Name="Contain" Type="nvarchar" />
+          <Property Name="ContactInfo" Type="nvarchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="AdvMobileDetail">
+          <Key>
+            <PropertyRef Name="AdvDetailID" />
+          </Key>
+          <Property Name="AdvDetailID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="AdvID" Type="int" Nullable="false" />
+          <Property Name="AccID" Type="int" Nullable="false" />
+          <Property Name="Header" Type="nvarchar" MaxLength="500" />
+          <Property Name="Contain" Type="nvarchar" />
+          <Property Name="CreateDate" Type="datetime" />
+          <Property Name="IsHide" Type="bit" />
+          <Property Name="IsClose" Type="bit" />
+          <Property Name="IP" Type="char" MaxLength="15" />
+        </EntityType>
+        <EntityType Name="AdvMobileDetail_Tmp">
+          <Key>
+            <PropertyRef Name="AdvDetailID" />
+          </Key>
+          <Property Name="AdvDetailID" Type="int" Nullable="false" />
+          <Property Name="Header" Type="nvarchar" MaxLength="500" />
+          <Property Name="Contain" Type="nvarchar" />
+        </EntityType>
+        <EntityType Name="AdvMotorcycle">
+          <Key>
+            <PropertyRef Name="AdvID" />
+          </Key>
+          <Property Name="AdvID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="AccID" Type="int" />
+          <Property Name="ProvinceID" Type="int" />
+          <Property Name="DistrictID" Type="int" />
+          <Property Name="TypeID" Type="int" />
+          <Property Name="Header" Type="nvarchar" MaxLength="500" />
+          <Property Name="Contain" Type="nvarchar" />
+          <Property Name="ContactInfo" Type="nvarchar" MaxLength="100" />
+          <Property Name="Picture" Type="nvarchar" MaxLength="100" />
+          <Property Name="Cost" Type="nvarchar" MaxLength="30" />
+          <Property Name="NumReply" Type="int" />
+          <Property Name="NumRead" Type="int" />
+          <Property Name="AssignTime" Type="nvarchar" MaxLength="100" />
+          <Property Name="CreateDate" Type="datetime" />
+          <Property Name="TimeUpdate" Type="datetime" />
+          <Property Name="IsHide" Type="bit" Nullable="false" />
+          <Property Name="IsClose" Type="bit" Nullable="false" />
+          <Property Name="OriginalLink" Type="nvarchar" MaxLength="300" />
+          <Property Name="Note" Type="nvarchar" MaxLength="50" />
+          <Property Name="IP" Type="char" MaxLength="15" />
+        </EntityType>
+        <EntityType Name="AdvMotorcycle_Tmp">
+          <Key>
+            <PropertyRef Name="AdvID" />
+          </Key>
+          <Property Name="AdvID" Type="int" Nullable="false" />
+          <Property Name="Header" Type="nvarchar" MaxLength="500" />
+          <Property Name="Contain" Type="nvarchar" />
+          <Property Name="ContactInfo" Type="nvarchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="AdvMotorcycleDetail">
+          <Key>
+            <PropertyRef Name="AdvDetailID" />
+          </Key>
+          <Property Name="AdvDetailID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="AdvID" Type="int" Nullable="false" />
+          <Property Name="AccID" Type="int" Nullable="false" />
+          <Property Name="Header" Type="nvarchar" MaxLength="500" />
+          <Property Name="Contain" Type="nvarchar" />
+          <Property Name="CreateDate" Type="datetime" />
+          <Property Name="IsHide" Type="bit" />
+          <Property Name="IsClose" Type="bit" />
+          <Property Name="IP" Type="char" MaxLength="15" />
+        </EntityType>
+        <EntityType Name="AdvMotorcycleDetail_Tmp">
+          <Key>
+            <PropertyRef Name="AdvDetailID" />
+          </Key>
+          <Property Name="AdvDetailID" Type="int" Nullable="false" />
+          <Property Name="Header" Type="nvarchar" MaxLength="500" />
+          <Property Name="Contain" Type="nvarchar" />
+        </EntityType>
+        <EntityType Name="AdvStock">
+          <Key>
+            <PropertyRef Name="AdvID" />
+          </Key>
+          <Property Name="AdvID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="AccID" Type="int" />
+          <Property Name="ProvinceID" Type="int" />
+          <Property Name="DistrictID" Type="int" />
+          <Property Name="TypeID" Type="int" />
+          <Property Name="Header" Type="nvarchar" MaxLength="500" />
+          <Property Name="Contain" Type="nvarchar" />
+          <Property Name="ContactInfo" Type="nvarchar" MaxLength="100" />
+          <Property Name="Picture" Type="nvarchar" MaxLength="100" />
+          <Property Name="Cost" Type="nvarchar" MaxLength="30" />
+          <Property Name="NumReply" Type="int" />
+          <Property Name="NumRead" Type="int" />
+          <Property Name="AssignTime" Type="nvarchar" MaxLength="100" />
+          <Property Name="CreateDate" Type="datetime" />
+          <Property Name="TimeUpdate" Type="datetime" />
+          <Property Name="IsHide" Type="bit" Nullable="false" />
+          <Property Name="IsClose" Type="bit" Nullable="false" />
+          <Property Name="OriginalLink" Type="nvarchar" MaxLength="300" />
+          <Property Name="Note" Type="nvarchar" MaxLength="50" />
+          <Property Name="IP" Type="char" MaxLength="15" />
+        </EntityType>
+        <EntityType Name="AdvStock_Tmp">
+          <Key>
+            <PropertyRef Name="AdvID" />
+          </Key>
+          <Property Name="AdvID" Type="int" Nullable="false" />
+          <Property Name="Header" Type="nvarchar" MaxLength="500" />
+          <Property Name="Contain" Type="nvarchar" />
+          <Property Name="ContactInfo" Type="nvarchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="AdvStockDetail">
+          <Key>
+            <PropertyRef Name="AdvDetailID" />
+          </Key>
+          <Property Name="AdvDetailID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="AdvID" Type="int" Nullable="false" />
+          <Property Name="AccID" Type="int" Nullable="false" />
+          <Property Name="Header" Type="nvarchar" MaxLength="500" />
+          <Property Name="Contain" Type="nvarchar" />
+          <Property Name="CreateDate" Type="datetime" />
+          <Property Name="IsHide" Type="bit" />
+          <Property Name="IsClose" Type="bit" />
+          <Property Name="IP" Type="char" MaxLength="15" />
+        </EntityType>
+        <EntityType Name="AdvStockDetail_Tmp">
+          <Key>
+            <PropertyRef Name="AdvDetailID" />
+          </Key>
+          <Property Name="AdvDetailID" Type="int" Nullable="false" />
+          <Property Name="Header" Type="nvarchar" MaxLength="500" />
+          <Property Name="Contain" Type="nvarchar" />
+        </EntityType>
+        <EntityType Name="AdvWork">
+          <Key>
+            <PropertyRef Name="AdvID" />
+          </Key>
+          <Property Name="AdvID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="AccID" Type="int" />
+          <Property Name="ProvinceID" Type="int" />
+          <Property Name="DistrictID" Type="int" />
+          <Property Name="TypeID" Type="int" />
+          <Property Name="Header" Type="nvarchar" MaxLength="500" />
+          <Property Name="Contain" Type="nvarchar" />
+          <Property Name="ContactInfo" Type="nvarchar" MaxLength="100" />
+          <Property Name="Picture" Type="nvarchar" MaxLength="100" />
+          <Property Name="Cost" Type="nvarchar" MaxLength="30" />
+          <Property Name="NumReply" Type="int" />
+          <Property Name="NumRead" Type="int" />
+          <Property Name="AssignTime" Type="nvarchar" MaxLength="100" />
+          <Property Name="CreateDate" Type="datetime" />
+          <Property Name="TimeUpdate" Type="datetime" />
+          <Property Name="IsHide" Type="bit" Nullable="false" />
+          <Property Name="IsClose" Type="bit" Nullable="false" />
+          <Property Name="OriginalLink" Type="nvarchar" MaxLength="300" />
+          <Property Name="Note" Type="nvarchar" MaxLength="50" />
+          <Property Name="IP" Type="char" MaxLength="15" />
+        </EntityType>
+        <EntityType Name="AdvWork_Tmp">
+          <Key>
+            <PropertyRef Name="AdvID" />
+          </Key>
+          <Property Name="AdvID" Type="int" Nullable="false" />
+          <Property Name="Header" Type="nvarchar" MaxLength="500" />
+          <Property Name="Contain" Type="nvarchar" />
+          <Property Name="ContactInfo" Type="nvarchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="AdvWorkDetail">
+          <Key>
+            <PropertyRef Name="AdvDetailID" />
+          </Key>
+          <Property Name="AdvDetailID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="AdvID" Type="int" Nullable="false" />
+          <Property Name="AccID" Type="int" Nullable="false" />
+          <Property Name="Header" Type="nvarchar" MaxLength="500" />
+          <Property Name="Contain" Type="nvarchar" />
+          <Property Name="CreateDate" Type="datetime" />
+          <Property Name="IsHide" Type="bit" />
+          <Property Name="IsClose" Type="bit" />
+          <Property Name="IP" Type="char" MaxLength="15" />
+        </EntityType>
+        <EntityType Name="AdvWorkDetail_Tmp">
+          <Key>
+            <PropertyRef Name="AdvDetailID" />
+          </Key>
+          <Property Name="AdvDetailID" Type="int" Nullable="false" />
+          <Property Name="Header" Type="nvarchar" MaxLength="500" />
+          <Property Name="Contain" Type="nvarchar" />
+        </EntityType>
+        <EntityType Name="ChatBox">
+          <Key>
+            <PropertyRef Name="ChatID" />
+          </Key>
+          <Property Name="ChatID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="AccID" Type="int" Nullable="false" />
+          <Property Name="UserName" Type="nvarchar" Nullable="false" MaxLength="20" />
+          <Property Name="Contain" Type="nvarchar" Nullable="false" MaxLength="400" />
+        </EntityType>
+        <EntityType Name="email">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="EmailAddress" Type="varchar" MaxLength="200" />
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Type" Type="tinyint" />
+          <Property Name="YahooNick" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="On_User">
+          <Key>
+            <PropertyRef Name="on_userID" />
+          </Key>
+          <Property Name="on_userID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="on_sessionid" Type="int" />
+          <Property Name="UserID" Type="int" />
+          <Property Name="reload_time" Type="datetime" />
+          <Property Name="ServerID" Type="tinyint" />
+          <Property Name="AccRoleID" Type="int" />
+          <Property Name="IsKickedOut" Type="bit" />
+          <Property Name="LoginDate" Type="datetime" />
+          <Property Name="IP" Type="varchar" MaxLength="15" />
+          <Property Name="Domain" Type="varchar" MaxLength="200" />
+        </EntityType>
+        <EntityType Name="Ref_Banner">
+          <Key>
+            <PropertyRef Name="BannerID" />
+          </Key>
+          <Property Name="BannerID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="BannerName" Type="nvarchar" MaxLength="200" />
+          <Property Name="HyperLink" Type="nvarchar" MaxLength="200" />
+          <Property Name="MenuID" Type="int" />
+          <Property Name="Position" Type="int" />
+        </EntityType>
+        <EntityType Name="Ref_District">
+          <Key>
+            <PropertyRef Name="DistrictID" />
+          </Key>
+          <Property Name="DistrictID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="DistrictName" Type="nvarchar" MaxLength="50" />
+          <Property Name="ProvinceID" Type="int" />
+          <Property Name="Lang" Type="nvarchar" MaxLength="5" />
+        </EntityType>
+        <EntityType Name="Ref_Info">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Type" Type="nvarchar" MaxLength="20" />
+          <Property Name="Info" Type="nvarchar" />
+          <Property Name="Lang" Type="nvarchar" MaxLength="5" />
+        </EntityType>
+        <EntityType Name="Ref_Menu">
+          <Key>
+            <PropertyRef Name="MenuID" />
+          </Key>
+          <Property Name="MenuID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="MenuName" Type="nvarchar" MaxLength="30" />
+          <Property Name="Lang" Type="nvarchar" MaxLength="5" />
+        </EntityType>
+        <EntityType Name="Ref_Province">
+          <Key>
+            <PropertyRef Name="ProvinceID" />
+          </Key>
+          <Property Name="ProvinceID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="ProvinceName" Type="nvarchar" MaxLength="50" />
+          <Property Name="Lang" Type="nvarchar" MaxLength="5" />
+        </EntityType>
+        <EntityType Name="Ref_Type">
+          <Key>
+            <PropertyRef Name="TypeID" />
+          </Key>
+          <Property Name="TypeID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="TypeName" Type="nvarchar" MaxLength="50" />
+          <Property Name="Lang" Type="nvarchar" MaxLength="5" />
+        </EntityType>
+        <EntityType Name="Ref_Unicode">
+          <Key>
+            <PropertyRef Name="UniID" />
+          </Key>
+          <Property Name="UniID" Type="char" Nullable="false" MaxLength="1" />
+          <Property Name="UniName" Type="nvarchar" MaxLength="20" />
+        </EntityType>
+        <EntityType Name="sysdiagrams">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="nvarchar" Nullable="false" MaxLength="128" />
+          <Property Name="principal_id" Type="int" Nullable="false" />
+          <Property Name="diagram_id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="version" Type="int" />
+          <Property Name="definition" Type="varbinary(max)" />
+        </EntityType>
+        <Function Name="fn_diagramobjects" ReturnType="int" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+        <Function Name="OnUserCount" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="Admin" Type="bit" Mode="In" />
+          <Parameter Name="TotalUser" Type="int" Mode="InOut" />
+        </Function>
+        <Function Name="sp_alterdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+          <Parameter Name="owner_id" Type="int" Mode="In" />
+          <Parameter Name="version" Type="int" Mode="In" />
+          <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+        </Function>
+        <Function Name="sp_Banner" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="MenuID" Type="int" Mode="In" />
+        </Function>
+        <Function Name="sp_creatediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+          <Parameter Name="owner_id" Type="int" Mode="In" />
+          <Parameter Name="version" Type="int" Mode="In" />
+          <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+        </Function>
+        <Function Name="sp_dropdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+          <Parameter Name="owner_id" Type="int" Mode="In" />
+        </Function>
+        <Function Name="sp_helpdiagramdefinition" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+          <Parameter Name="owner_id" Type="int" Mode="In" />
+        </Function>
+        <Function Name="sp_helpdiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+          <Parameter Name="owner_id" Type="int" Mode="In" />
+        </Function>
+        <Function Name="sp_renamediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+          <Parameter Name="owner_id" Type="int" Mode="In" />
+          <Parameter Name="new_diagramname" Type="nvarchar" Mode="In" />
+        </Function>
+        <Function Name="sp_upgraddiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+        <Function Name="spCbo_District" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="Lang" Type="nvarchar" Mode="In" />
+          <Parameter Name="ProvinceID" Type="int" Mode="In" />
+        </Function>
+        <Function Name="spCbo_Info" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="Type" Type="nvarchar" Mode="In" />
+          <Parameter Name="Lang" Type="nvarchar" Mode="In" />
+        </Function>
+        <Function Name="spCbo_Menu" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="Lang" Type="nvarchar" Mode="In" />
+        </Function>
+        <Function Name="spCbo_Province" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="Lang" Type="nvarchar" Mode="In" />
+        </Function>
+        <Function Name="spCbo_Type" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="Lang" Type="nvarchar" Mode="In" />
+        </Function>
+        <Function Name="spDel_ACCOUNTS" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="pAccID" Type="int" Mode="In" />
+        </Function>
+        <Function Name="spDel_AdvCar" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="AdvID" Type="int" Mode="In" />
+          <Parameter Name="ErrCode" Type="int" Mode="InOut" />
+        </Function>
+        <Function Name="spDel_AdvCarDetail" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="AdvDetailID" Type="int" Mode="In" />
+          <Parameter Name="ErrCode" Type="int" Mode="InOut" />
+        </Function>
+        <Function Name="spDel_AdvComputer" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="AdvID" Type="int" Mode="In" />
+          <Parameter Name="ErrCode" Type="int" Mode="InOut" />
+        </Function>
+        <Function Name="spDel_AdvComputerDetail" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="AdvDetailID" Type="int" Mode="In" />
+          <Parameter Name="ErrCode" Type="int" Mode="InOut" />
+        </Function>
+        <Function Name="spDel_AdvDomestic" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="AdvID" Type="int" Mode="In" />
+          <Parameter Name="ErrCode" Type="int" Mode="InOut" />
+        </Function>
+        <Function Name="spDel_AdvDomesticDetail" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="AdvDetailID" Type="int" Mode="In" />
+          <Parameter Name="ErrCode" Type="int" Mode="InOut" />
+        </Function>
+        <Function Name="spDel_AdvEstate" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="AdvID" Type="int" Mode="In" />
+          <Parameter Name="ErrCode" Type="int" Mode="InOut" />
+        </Function>
+        <Function Name="spDel_AdvEstateDetail" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="AdvDetailID" Type="int" Mode="In" />
+          <Parameter Name="ErrCode" Type="int" Mode="InOut" />
+        </Function>
+        <Function Name="spDel_AdvFashion" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="AdvID" Type="int" Mode="In" />
+          <Parameter Name="ErrCode" Type="int" Mode="InOut" />
+        </Function>
+        <Function Name="spDel_AdvFashionDetail" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="AdvDetailID" Type="int" Mode="In" />
+          <Parameter Name="ErrCode" Type="int" Mode="InOut" />
+        </Function>
+        <Function Name="spDel_AdvMobile" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="AdvID" Type="int" Mode="In" />
+          <Parameter Name="ErrCode" Type="int" Mode="InOut" />
+        </Function>
+        <Function Name="spDel_AdvMobileDetail" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="AdvDetailID" Type="int" Mode="In" />
+          <Parameter Name="ErrCode" Type="int" Mode="InOut" />
+        </Function>
+        <Function Name="spDel_AdvMotorcycle" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="AdvID" Type="int" Mode="In" />
+          <Parameter Name="ErrCode" Type="int" Mode="InOut" />
+        </Function>
+        <Function Name="spDel_AdvMotorcycleDetail" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="AdvDetailID" Type="int" Mode="In" />
+          <Parameter Name="ErrCode" Type="int" Mode="InOut" />
+        </Function>
+        <Function Name="spDel_AdvStock" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="AdvID" Type="int" Mode="In" />
+          <Parameter Name="ErrCode" Type="int" Mode="InOut" />
+        </Function>
+        <Function Name="spDel_AdvStockDetail" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="AdvDetailID" Type="int" Mode="In" />
+          <Parameter Name="ErrCode" Type="int" Mode="InOut" />
+        </Function>
+        <Function Name="spDel_AdvWork" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="AdvID" Type="int" Mode="In" />
+          <Parameter Name="ErrCode" Type="int" Mode="InOut" />
+        </Function>
+        <Function Name="spDel_AdvWorkDetail" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="AdvDetailID" Type="int" Mode="In" />
+          <Parameter Name="ErrCode" Type="int" Mode="InOut" />
+        </Function>
+        <Function Name="spDel_ChatBox" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="ChatID" Type="int" Mode="In" />
+        </Function>
+        <Function Name="spDel_REF_BANNER" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="pBannerID" Type="int" Mode="In" />
+        </Function>
+        <Function Name="spDel_REF_INFO" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="pID" Type="int" Mode="In" />
+        </Function>
+        <Function Name="spIns_Accounts" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="pUserName" Type="nvarchar" Mode="In" />
+          <Parameter Name="pAccPwd" Type="nvarchar" Mode="In" />
+          <Parameter Name="pEmail" Type="nvarchar" Mode="In" />
+          <Parameter Name="pFullName" Type="nvarchar" Mode="In" />
+          <Parameter Name="pAddress" Type="nvarchar" Mode="In" />
+          <Parameter Name="pMobile" Type="nvarchar" Mode="In" />
+          <Parameter Name="pAccRoleID" Type="tinyint" Mode="In" />
+          <Parameter Name="pUserUpdate" Type="nvarchar" Mode="In" />
+          <Parameter Name="pAvatar" Type="nvarchar" Mode="In" />
+          <Parameter Name="pIP" Type="char" Mode="In" />
+        </Function>
+        <Function Name="spIns_AdvCar" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="AccID" Type="int" Mode="In" />
+          <Parameter Name="ProvinceID" Type="int" Mode="In" />
+          <Parameter Name="DistrictID" Type="int" Mode="In" />
+          <Parameter Name="TypeID" Type="int" Mode="In" />
+          <Parameter Name="Header" Type="nvarchar" Mode="In" />
+          <Parameter Name="Contain" Type="nvarchar" Mode="In" />
+          <Parameter Name="ContactInfo" Type="nvarchar" Mode="In" />
+          <Parameter Name="Picture" Type="nvarchar" Mode="In" />
+          <Parameter Name="Cost" Type="nvarchar" Mode="In" />
+          <Parameter Name="NumReply" Type="int" Mode="In" />
+          <Parameter Name="NumRead" Type="int" Mode="In" />
+          <Parameter Name="AssignTime" Type="nvarchar" Mode="In" />
+          <Parameter Name="ErrCode" Type="int" Mode="InOut" />
+        </Function>
+        <Function Name="spIns_AdvCarDetail" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="AdvID" Type="int" Mode="In" />
+          <Parameter Name="AccID" Type="int" Mode="In" />
+          <Parameter Name="Header" Type="nvarchar" Mode="In" />
+          <Parameter Name="Contain" Type="nvarchar" Mode="In" />
+          <Parameter Name="ErrCode" Type="int" Mode="InOut" />
+        </Function>
+        <Function Name="spIns_ChatBox" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="AccID" Type="int" Mode="In" />
+          <Parameter Name="UserName" Type="nvarchar" Mode="In" />
+          <Parameter Name="Contain" Type="nvarchar" Mode="In" />
+          <Parameter Name="ErrCode" Type="int" Mode="InOut" />
+        </Function>
+        <Function Name="spInsUpd_REF_BANNER" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="Flag" Type="tinyint" Mode="In" />
+          <Parameter Name="pBannerName" Type="nvarchar" Mode="In" />
+          <Parameter Name="pHyperLink" Type="nvarchar" Mode="In" />
+        </Function>
+        <Function Name="spInsUpd_REF_INFO" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="Flag" Type="tinyint" Mode="In" />
+          <Parameter Name="pType" Type="nvarchar" Mode="In" />
+          <Parameter Name="pInfo" Type="nvarchar" Mode="In" />
+          <Parameter Name="pLang" Type="nvarchar" Mode="In" />
+        </Function>
+        <Function Name="spSel_AdvCar" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="ProvinceID" Type="int" Mode="In" />
+          <Parameter Name="DistrictID" Type="int" Mode="In" />
+          <Parameter Name="TypeID" Type="int" Mode="In" />
+          <Parameter Name="Key" Type="nvarchar" Mode="In" />
+          <Parameter Name="PageSize" Type="int" Mode="In" />
+          <Parameter Name="PageIndex" Type="int" Mode="In" />
+          <Parameter Name="TotalPages" Type="int" Mode="InOut" />
+        </Function>
+        <Function Name="spSel_AdvCarDetail" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="AdvID" Type="int" Mode="In" />
+          <Parameter Name="PageSize" Type="int" Mode="In" />
+          <Parameter Name="PageIndex" Type="int" Mode="In" />
+          <Parameter Name="TotalPages" Type="int" Mode="InOut" />
+        </Function>
+        <Function Name="spSel_AdvComputer" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="ProvinceID" Type="int" Mode="In" />
+          <Parameter Name="DistrictID" Type="int" Mode="In" />
+          <Parameter Name="TypeID" Type="int" Mode="In" />
+          <Parameter Name="Key" Type="nvarchar" Mode="In" />
+          <Parameter Name="PageSize" Type="int" Mode="In" />
+          <Parameter Name="PageIndex" Type="int" Mode="In" />
+          <Parameter Name="TotalPages" Type="int" Mode="InOut" />
+        </Function>
+        <Function Name="spSel_AdvComputerDetail" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="AdvID" Type="int" Mode="In" />
+          <Parameter Name="PageSize" Type="int" Mode="In" />
+          <Parameter Name="PageIndex" Type="int" Mode="In" />
+          <Parameter Name="TotalPages" Type="int" Mode="InOut" />
+        </Function>
+        <Function Name="spSel_AdvDomestic" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="ProvinceID" Type="int" Mode="In" />
+          <Parameter Name="DistrictID" Type="int" Mode="In" />
+          <Parameter Name="TypeID" Type="int" Mode="In" />
+          <Parameter Name="Key" Type="nvarchar" Mode="In" />
+          <Parameter Name="PageSize" Type="int" Mode="In" />
+          <Parameter Name="PageIndex" Type="int" Mode="In" />
+          <Parameter Name="TotalPages" Type="int" Mode="InOut" />
+        </Function>
+        <Function Name="spSel_AdvDomesticDetail" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="AdvID" Type="int" Mode="In" />
+          <Parameter Name="PageSize" Type="int" Mode="In" />
+          <Parameter Name="PageIndex" Type="int" Mode="In" />
+          <Parameter Name="TotalPages" Type="int" Mode="InOut" />
+        </Function>
+        <Function Name="spSel_AdvEstate" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="ProvinceID" Type="int" Mode="In" />
+          <Parameter Name="DistrictID" Type="int" Mode="In" />
+          <Parameter Name="TypeID" Type="int" Mode="In" />
+          <Parameter Name="Key" Type="nvarchar" Mode="In" />
+          <Parameter Name="PageSize" Type="int" Mode="In" />
+          <Parameter Name="PageIndex" Type="int" Mode="In" />
+          <Parameter Name="TotalPages" Type="int" Mode="InOut" />
+        </Function>
+        <Function Name="spSel_AdvEstateDetail" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="AdvID" Type="int" Mode="In" />
+          <Parameter Name="PageSize" Type="int" Mode="In" />
+          <Parameter Name="PageIndex" Type="int" Mode="In" />
+          <Parameter Name="TotalPages" Type="int" Mode="InOut" />
+        </Function>
+        <Function Name="spSel_AdvFashion" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="ProvinceID" Type="int" Mode="In" />
+          <Parameter Name="DistrictID" Type="int" Mode="In" />
+          <Parameter Name="TypeID" Type="int" Mode="In" />
+          <Parameter Name="Key" Type="nvarchar" Mode="In" />
+          <Parameter Name="PageSize" Type="int" Mode="In" />
+          <Parameter Name="PageIndex" Type="int" Mode="In" />
+          <Parameter Name="TotalPages" Type="int" Mode="InOut" />
+        </Function>
+        <Function Name="spSel_AdvFashionDetail" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="AdvID" Type="int" Mode="In" />
+          <Parameter Name="PageSize" Type="int" Mode="In" />
+          <Parameter Name="PageIndex" Type="int" Mode="In" />
+          <Parameter Name="TotalPages" Type="int" Mode="InOut" />
+        </Function>
+        <Function Name="spSel_AdvMakeFriend" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="ProvinceID" Type="int" Mode="In" />
+          <Parameter Name="DistrictID" Type="int" Mode="In" />
+          <Parameter Name="Sex" Type="int" Mode="In" />
+          <Parameter Name="Key" Type="nvarchar" Mode="In" />
+          <Parameter Name="MariedStatus" Type="nvarchar" Mode="In" />
+          <Parameter Name="FromAge" Type="int" Mode="In" />
+          <Parameter Name="ToAge" Type="int" Mode="In" />
+          <Parameter Name="PageSize" Type="int" Mode="In" />
+          <Parameter Name="PageIndex" Type="int" Mode="In" />
+          <Parameter Name="TotalPages" Type="int" Mode="InOut" />
+        </Function>
+        <Function Name="spSel_AdvMobile" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="ProvinceID" Type="int" Mode="In" />
+          <Parameter Name="DistrictID" Type="int" Mode="In" />
+          <Parameter Name="TypeID" Type="int" Mode="In" />
+          <Parameter Name="Key" Type="nvarchar" Mode="In" />
+          <Parameter Name="PageSize" Type="int" Mode="In" />
+          <Parameter Name="PageIndex" Type="int" Mode="In" />
+          <Parameter Name="TotalPages" Type="int" Mode="InOut" />
+        </Function>
+        <Function Name="spSel_AdvMobileDetail" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="AdvID" Type="int" Mode="In" />
+          <Parameter Name="PageSize" Type="int" Mode="In" />
+          <Parameter Name="PageIndex" Type="int" Mode="In" />
+          <Parameter Name="TotalPages" Type="int" Mode="InOut" />
+        </Function>
+        <Function Name="spSel_AdvMotorcycle" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="ProvinceID" Type="int" Mode="In" />
+          <Parameter Name="DistrictID" Type="int" Mode="In" />
+          <Parameter Name="TypeID" Type="int" Mode="In" />
+          <Parameter Name="Key" Type="nvarchar" Mode="In" />
+          <Parameter Name="PageSize" Type="int" Mode="In" />
+          <Parameter Name="PageIndex" Type="int" Mode="In" />
+          <Parameter Name="TotalPages" Type="int" Mode="InOut" />
+        </Function>
+        <Function Name="spSel_AdvMotorcycleDetail" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="AdvID" Type="int" Mode="In" />
+          <Parameter Name="PageSize" Type="int" Mode="In" />
+          <Parameter Name="PageIndex" Type="int" Mode="In" />
+          <Parameter Name="TotalPages" Type="int" Mode="InOut" />
+        </Function>
+        <Function Name="spSel_AdvStock" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="ProvinceID" Type="int" Mode="In" />
+          <Parameter Name="DistrictID" Type="int" Mode="In" />
+          <Parameter Name="TypeID" Type="int" Mode="In" />
+          <Parameter Name="Key" Type="nvarchar" Mode="In" />
+          <Parameter Name="PageSize" Type="int" Mode="In" />
+          <Parameter Name="PageIndex" Type="int" Mode="In" />
+          <Parameter Name="TotalPages" Type="int" Mode="InOut" />
+        </Function>
+        <Function Name="spSel_AdvStockDetail" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="AdvID" Type="int" Mode="In" />
+          <Parameter Name="PageSize" Type="int" Mode="In" />
+          <Parameter Name="PageIndex" Type="int" Mode="In" />
+          <Parameter Name="TotalPages" Type="int" Mode="InOut" />
+        </Function>
+        <Function Name="spSel_AdvWork" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="ProvinceID" Type="int" Mode="In" />
+          <Parameter Name="DistrictID" Type="int" Mode="In" />
+          <Parameter Name="TypeID" Type="int" Mode="In" />
+          <Parameter Name="Key" Type="nvarchar" Mode="In" />
+          <Parameter Name="PageSize" Type="int" Mode="In" />
+          <Parameter Name="PageIndex" Type="int" Mode="In" />
+          <Parameter Name="TotalPages" Type="int" Mode="InOut" />
+        </Function>
+        <Function Name="spSel_AdvWorkDetail" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="AdvID" Type="int" Mode="In" />
+          <Parameter Name="PageSize" Type="int" Mode="In" />
+          <Parameter Name="PageIndex" Type="int" Mode="In" />
+          <Parameter Name="TotalPages" Type="int" Mode="InOut" />
+        </Function>
+        <Function Name="spSel_ChatBox" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+        <Function Name="spUpd_Accounts_Thank" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="AccID" Type="int" Mode="In" />
+          <Parameter Name="ErrCode" Type="int" Mode="InOut" />
+        </Function>
+        <Function Name="spUpd_AdvCar" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="AdvID" Type="int" Mode="In" />
+          <Parameter Name="AccID" Type="int" Mode="In" />
+          <Parameter Name="ProvinceID" Type="int" Mode="In" />
+          <Parameter Name="DistrictID" Type="int" Mode="In" />
+          <Parameter Name="TypeID" Type="int" Mode="In" />
+          <Parameter Name="Header" Type="nvarchar" Mode="In" />
+          <Parameter Name="Contain" Type="nvarchar" Mode="In" />
+          <Parameter Name="ContactInfo" Type="nvarchar" Mode="In" />
+          <Parameter Name="Picture" Type="nvarchar" Mode="In" />
+          <Parameter Name="Cost" Type="nvarchar" Mode="In" />
+          <Parameter Name="NumReply" Type="int" Mode="In" />
+          <Parameter Name="NumRead" Type="int" Mode="In" />
+          <Parameter Name="AssignTime" Type="nvarchar" Mode="In" />
+          <Parameter Name="IsHide" Type="bit" Mode="In" />
+          <Parameter Name="IsClose" Type="bit" Mode="In" />
+          <Parameter Name="ErrCode" Type="int" Mode="InOut" />
+        </Function>
+        <Function Name="spUpd_AdvCar_Close" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="AdvID" Type="int" Mode="In" />
+          <Parameter Name="ErrCode" Type="int" Mode="InOut" />
+        </Function>
+        <Function Name="spUpd_AdvCarDetail" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="AdvDetailID" Type="int" Mode="In" />
+          <Parameter Name="AccID" Type="int" Mode="In" />
+          <Parameter Name="Header" Type="nvarchar" Mode="In" />
+          <Parameter Name="Contain" Type="nvarchar" Mode="In" />
+          <Parameter Name="IsHide" Type="bit" Mode="In" />
+          <Parameter Name="IsClose" Type="bit" Mode="In" />
+          <Parameter Name="ErrCode" Type="int" Mode="InOut" />
+        </Function>
+        <Function Name="spUpd_AdvComputer_Close" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="AdvID" Type="int" Mode="In" />
+          <Parameter Name="ErrCode" Type="int" Mode="InOut" />
+        </Function>
+        <Function Name="spUpd_AdvDomestic_Close" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="AdvID" Type="int" Mode="In" />
+          <Parameter Name="ErrCode" Type="int" Mode="InOut" />
+        </Function>
+        <Function Name="spUpd_AdvEstate_Close" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="AdvID" Type="int" Mode="In" />
+          <Parameter Name="ErrCode" Type="int" Mode="InOut" />
+        </Function>
+        <Function Name="spUpd_AdvFashion_Close" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="AdvID" Type="int" Mode="In" />
+          <Parameter Name="ErrCode" Type="int" Mode="InOut" />
+        </Function>
+        <Function Name="spUpd_AdvMobile_Close" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="AdvID" Type="int" Mode="In" />
+          <Parameter Name="ErrCode" Type="int" Mode="InOut" />
+        </Function>
+        <Function Name="spUpd_AdvMotorcycle_Close" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="AdvID" Type="int" Mode="In" />
+          <Parameter Name="ErrCode" Type="int" Mode="InOut" />
+        </Function>
+        <Function Name="spUpd_AdvStock_Close" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="AdvID" Type="int" Mode="In" />
+          <Parameter Name="ErrCode" Type="int" Mode="InOut" />
+        </Function>
+        <Function Name="spUpd_AdvWork_Close" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="AdvID" Type="int" Mode="In" />
+          <Parameter Name="ErrCode" Type="int" Mode="InOut" />
+        </Function>
+        <Function Name="spUpd_ChatBox" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="ChatID" Type="int" Mode="In" />
+          <Parameter Name="Contain" Type="nvarchar" Mode="In" />
+          <Parameter Name="ErrCode" Type="int" Mode="InOut" />
+        </Function>
+        <Function Name="TitleContent" ReturnType="nvarchar" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="String" Type="nvarchar" Mode="In" />
+        </Function>
+        <Function Name="TranslateTest" ReturnType="bit" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="String" Type="nvarchar" Mode="In" />
+        </Function>
+        <Function Name="TranslateVN" ReturnType="nvarchar" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="String" Type="nvarchar" Mode="In" />
+        </Function>
+        <!--Errors Found During Generation:
+      warning 6013: The table/view 'AdvServices.dbo.Test' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+      
+      <EntityType Name="Test">
+        <Property Name="id" Type="int" />
+      </EntityType>-->
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="AdvServicesModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+        <EntityContainer Name="AdvServicesEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Accounts" EntityType="AdvServicesModel.Account" />
+          <EntitySet Name="AdvCars" EntityType="AdvServicesModel.AdvCar" />
+          <EntitySet Name="AdvCar_Tmp" EntityType="AdvServicesModel.AdvCar_Tmp" />
+          <EntitySet Name="AdvCarDetails" EntityType="AdvServicesModel.AdvCarDetail" />
+          <EntitySet Name="AdvCarDetail_Tmp" EntityType="AdvServicesModel.AdvCarDetail_Tmp" />
+          <EntitySet Name="AdvComputers" EntityType="AdvServicesModel.AdvComputer" />
+          <EntitySet Name="AdvComputer_Tmp" EntityType="AdvServicesModel.AdvComputer_Tmp" />
+          <EntitySet Name="AdvComputerDetails" EntityType="AdvServicesModel.AdvComputerDetail" />
+          <EntitySet Name="AdvComputerDetail_Tmp" EntityType="AdvServicesModel.AdvComputerDetail_Tmp" />
+          <EntitySet Name="AdvDomestics" EntityType="AdvServicesModel.AdvDomestic" />
+          <EntitySet Name="AdvDomestic_Tmp" EntityType="AdvServicesModel.AdvDomestic_Tmp" />
+          <EntitySet Name="AdvDomesticDetails" EntityType="AdvServicesModel.AdvDomesticDetail" />
+          <EntitySet Name="AdvDomesticDetail_Tmp" EntityType="AdvServicesModel.AdvDomesticDetail_Tmp" />
+          <EntitySet Name="AdvEstates" EntityType="AdvServicesModel.AdvEstate" />
+          <EntitySet Name="AdvEstate_Tmp" EntityType="AdvServicesModel.AdvEstate_Tmp" />
+          <EntitySet Name="AdvEstateDetails" EntityType="AdvServicesModel.AdvEstateDetail" />
+          <EntitySet Name="AdvEstateDetail_Tmp" EntityType="AdvServicesModel.AdvEstateDetail_Tmp" />
+          <EntitySet Name="AdvFashions" EntityType="AdvServicesModel.AdvFashion" />
+          <EntitySet Name="AdvFashion_Tmp" EntityType="AdvServicesModel.AdvFashion_Tmp" />
+          <EntitySet Name="AdvFashionDetails" EntityType="AdvServicesModel.AdvFashionDetail" />
+          <EntitySet Name="AdvFashionDetail_Tmp" EntityType="AdvServicesModel.AdvFashionDetail_Tmp" />
+          <EntitySet Name="AdvMakeFriends" EntityType="AdvServicesModel.AdvMakeFriend" />
+          <EntitySet Name="AdvMobiles" EntityType="AdvServicesModel.AdvMobile" />
+          <EntitySet Name="AdvMobile_Tmp" EntityType="AdvServicesModel.AdvMobile_Tmp" />
+          <EntitySet Name="AdvMobileDetails" EntityType="AdvServicesModel.AdvMobileDetail" />
+          <EntitySet Name="AdvMobileDetail_Tmp" EntityType="AdvServicesModel.AdvMobileDetail_Tmp" />
+          <EntitySet Name="AdvMotorcycles" EntityType="AdvServicesModel.AdvMotorcycle" />
+          <EntitySet Name="AdvMotorcycle_Tmp" EntityType="AdvServicesModel.AdvMotorcycle_Tmp" />
+          <EntitySet Name="AdvMotorcycleDetails" EntityType="AdvServicesModel.AdvMotorcycleDetail" />
+          <EntitySet Name="AdvMotorcycleDetail_Tmp" EntityType="AdvServicesModel.AdvMotorcycleDetail_Tmp" />
+          <EntitySet Name="AdvStocks" EntityType="AdvServicesModel.AdvStock" />
+          <EntitySet Name="AdvStock_Tmp" EntityType="AdvServicesModel.AdvStock_Tmp" />
+          <EntitySet Name="AdvStockDetails" EntityType="AdvServicesModel.AdvStockDetail" />
+          <EntitySet Name="AdvStockDetail_Tmp" EntityType="AdvServicesModel.AdvStockDetail_Tmp" />
+          <EntitySet Name="AdvWorks" EntityType="AdvServicesModel.AdvWork" />
+          <EntitySet Name="AdvWork_Tmp" EntityType="AdvServicesModel.AdvWork_Tmp" />
+          <EntitySet Name="AdvWorkDetails" EntityType="AdvServicesModel.AdvWorkDetail" />
+          <EntitySet Name="AdvWorkDetail_Tmp" EntityType="AdvServicesModel.AdvWorkDetail_Tmp" />
+          <EntitySet Name="ChatBoxes" EntityType="AdvServicesModel.ChatBox" />
+          <EntitySet Name="emails" EntityType="AdvServicesModel.email" />
+          <EntitySet Name="On_User" EntityType="AdvServicesModel.On_User" />
+          <EntitySet Name="Ref_Banner" EntityType="AdvServicesModel.Ref_Banner" />
+          <EntitySet Name="Ref_District" EntityType="AdvServicesModel.Ref_District" />
+          <EntitySet Name="Ref_Info" EntityType="AdvServicesModel.Ref_Info" />
+          <EntitySet Name="Ref_Menu" EntityType="AdvServicesModel.Ref_Menu" />
+          <EntitySet Name="Ref_Province" EntityType="AdvServicesModel.Ref_Province" />
+          <EntitySet Name="Ref_Type" EntityType="AdvServicesModel.Ref_Type" />
+          <EntitySet Name="Ref_Unicode" EntityType="AdvServicesModel.Ref_Unicode" />
+          <EntitySet Name="sysdiagrams" EntityType="AdvServicesModel.sysdiagram" />
+        </EntityContainer>
+        <EntityType Name="Account">
+          <Key>
+            <PropertyRef Name="AccID" />
+          </Key>
+          <Property Name="AccID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="UserName" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="AccPwd" Type="String" MaxLength="30" Unicode="true" FixedLength="false" />
+          <Property Name="PassPort" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="Email" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="FullName" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="Address" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="Mobile" Type="String" MaxLength="30" Unicode="true" FixedLength="false" />
+          <Property Name="CurrID" Type="Byte" />
+          <Property Name="Balance" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="Deposit" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="Reason" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="CreatedDate" Type="DateTime" />
+          <Property Name="AccRoleID" Type="Byte" Nullable="false" />
+          <Property Name="UserUpdate" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="TimeUpdate" Type="DateTime" />
+          <Property Name="Avatar" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="Active" Type="Boolean" />
+          <Property Name="LevelID" Type="Byte" />
+          <Property Name="ThankedNum" Type="Int32" Nullable="false" />
+          <Property Name="SentNum" Type="Int32" Nullable="false" />
+          <Property Name="IP" Type="String" MaxLength="15" Unicode="false" FixedLength="true" />
+        </EntityType>
+        <EntityType Name="AdvCar">
+          <Key>
+            <PropertyRef Name="AdvID" />
+          </Key>
+          <Property Name="AdvID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="AccID" Type="Int32" />
+          <Property Name="ProvinceID" Type="Int32" />
+          <Property Name="DistrictID" Type="Int32" />
+          <Property Name="TypeID" Type="Int32" />
+          <Property Name="Header" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="Contain" Type="String" MaxLength="4000" Unicode="true" FixedLength="false" />
+          <Property Name="ContactInfo" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="Picture" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="Cost" Type="String" MaxLength="30" Unicode="true" FixedLength="false" />
+          <Property Name="NumReply" Type="Int32" />
+          <Property Name="NumRead" Type="Int32" />
+          <Property Name="AssignTime" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="CreateDate" Type="DateTime" />
+          <Property Name="TimeUpdate" Type="DateTime" />
+          <Property Name="IsHide" Type="Boolean" Nullable="false" />
+          <Property Name="IsClose" Type="Boolean" Nullable="false" />
+          <Property Name="OriginalLink" Type="String" MaxLength="300" Unicode="true" FixedLength="false" />
+          <Property Name="Note" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="IP" Type="String" MaxLength="15" Unicode="false" FixedLength="true" />
+        </EntityType>
+        <EntityType Name="AdvCar_Tmp">
+          <Key>
+            <PropertyRef Name="AdvID" />
+          </Key>
+          <Property Name="AdvID" Type="Int32" Nullable="false" />
+          <Property Name="Header" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="Contain" Type="String" MaxLength="4000" Unicode="true" FixedLength="false" />
+          <Property Name="ContactInfo" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="AdvCarDetail">
+          <Key>
+            <PropertyRef Name="AdvDetailID" />
+          </Key>
+          <Property Name="AdvDetailID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="AdvID" Type="Int32" Nullable="false" />
+          <Property Name="AccID" Type="Int32" Nullable="false" />
+          <Property Name="Header" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="Contain" Type="String" MaxLength="4000" Unicode="true" FixedLength="false" />
+          <Property Name="CreateDate" Type="DateTime" />
+          <Property Name="IsHide" Type="Boolean" />
+          <Property Name="IsClose" Type="Boolean" />
+          <Property Name="IP" Type="String" MaxLength="15" Unicode="false" FixedLength="true" />
+        </EntityType>
+        <EntityType Name="AdvCarDetail_Tmp">
+          <Key>
+            <PropertyRef Name="AdvDetailID" />
+          </Key>
+          <Property Name="AdvDetailID" Type="Int32" Nullable="false" />
+          <Property Name="Header" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="Contain" Type="String" MaxLength="4000" Unicode="true" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="AdvComputer">
+          <Key>
+            <PropertyRef Name="AdvID" />
+          </Key>
+          <Property Name="AdvID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="AccID" Type="Int32" />
+          <Property Name="ProvinceID" Type="Int32" />
+          <Property Name="DistrictID" Type="Int32" />
+          <Property Name="TypeID" Type="Int32" />
+          <Property Name="Header" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="Contain" Type="String" MaxLength="4000" Unicode="true" FixedLength="false" />
+          <Property Name="ContactInfo" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="Picture" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="Cost" Type="String" MaxLength="30" Unicode="true" FixedLength="false" />
+          <Property Name="NumReply" Type="Int32" />
+          <Property Name="NumRead" Type="Int32" />
+          <Property Name="AssignTime" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="CreateDate" Type="DateTime" />
+          <Property Name="TimeUpdate" Type="DateTime" />
+          <Property Name="IsHide" Type="Boolean" Nullable="false" />
+          <Property Name="IsClose" Type="Boolean" Nullable="false" />
+          <Property Name="OriginalLink" Type="String" MaxLength="300" Unicode="true" FixedLength="false" />
+          <Property Name="Note" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="IP" Type="String" MaxLength="15" Unicode="false" FixedLength="true" />
+        </EntityType>
+        <EntityType Name="AdvComputer_Tmp">
+          <Key>
+            <PropertyRef Name="AdvID" />
+          </Key>
+          <Property Name="AdvID" Type="Int32" Nullable="false" />
+          <Property Name="Header" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="Contain" Type="String" MaxLength="4000" Unicode="true" FixedLength="false" />
+          <Property Name="ContactInfo" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="AdvComputerDetail">
+          <Key>
+            <PropertyRef Name="AdvDetailID" />
+          </Key>
+          <Property Name="AdvDetailID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="AdvID" Type="Int32" Nullable="false" />
+          <Property Name="AccID" Type="Int32" Nullable="false" />
+          <Property Name="Header" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="Contain" Type="String" MaxLength="4000" Unicode="true" FixedLength="false" />
+          <Property Name="CreateDate" Type="DateTime" />
+          <Property Name="IsHide" Type="Boolean" />
+          <Property Name="IsClose" Type="Boolean" />
+          <Property Name="IP" Type="String" MaxLength="15" Unicode="false" FixedLength="true" />
+        </EntityType>
+        <EntityType Name="AdvComputerDetail_Tmp">
+          <Key>
+            <PropertyRef Name="AdvDetailID" />
+          </Key>
+          <Property Name="AdvDetailID" Type="Int32" Nullable="false" />
+          <Property Name="Header" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="Contain" Type="String" MaxLength="4000" Unicode="true" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="AdvDomestic">
+          <Key>
+            <PropertyRef Name="AdvID" />
+          </Key>
+          <Property Name="AdvID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="AccID" Type="Int32" />
+          <Property Name="ProvinceID" Type="Int32" />
+          <Property Name="DistrictID" Type="Int32" />
+          <Property Name="TypeID" Type="Int32" />
+          <Property Name="Header" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="Contain" Type="String" MaxLength="4000" Unicode="true" FixedLength="false" />
+          <Property Name="ContactInfo" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="Picture" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="Cost" Type="String" MaxLength="30" Unicode="true" FixedLength="false" />
+          <Property Name="NumReply" Type="Int32" />
+          <Property Name="NumRead" Type="Int32" />
+          <Property Name="AssignTime" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="CreateDate" Type="DateTime" />
+          <Property Name="TimeUpdate" Type="DateTime" />
+          <Property Name="IsHide" Type="Boolean" Nullable="false" />
+          <Property Name="IsClose" Type="Boolean" Nullable="false" />
+          <Property Name="OriginalLink" Type="String" MaxLength="300" Unicode="true" FixedLength="false" />
+          <Property Name="Note" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="IP" Type="String" MaxLength="15" Unicode="false" FixedLength="true" />
+        </EntityType>
+        <EntityType Name="AdvDomestic_Tmp">
+          <Key>
+            <PropertyRef Name="AdvID" />
+          </Key>
+          <Property Name="AdvID" Type="Int32" Nullable="false" />
+          <Property Name="Header" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="Contain" Type="String" MaxLength="4000" Unicode="true" FixedLength="false" />
+          <Property Name="ContactInfo" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="AdvDomesticDetail">
+          <Key>
+            <PropertyRef Name="AdvDetailID" />
+          </Key>
+          <Property Name="AdvDetailID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="AdvID" Type="Int32" Nullable="false" />
+          <Property Name="AccID" Type="Int32" Nullable="false" />
+          <Property Name="Header" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="Contain" Type="String" MaxLength="4000" Unicode="true" FixedLength="false" />
+          <Property Name="CreateDate" Type="DateTime" />
+          <Property Name="IsHide" Type="Boolean" />
+          <Property Name="IsClose" Type="Boolean" />
+          <Property Name="IP" Type="String" MaxLength="15" Unicode="false" FixedLength="true" />
+        </EntityType>
+        <EntityType Name="AdvDomesticDetail_Tmp">
+          <Key>
+            <PropertyRef Name="AdvDetailID" />
+          </Key>
+          <Property Name="AdvDetailID" Type="Int32" Nullable="false" />
+          <Property Name="Header" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="Contain" Type="String" MaxLength="4000" Unicode="true" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="AdvEstate">
+          <Key>
+            <PropertyRef Name="AdvID" />
+          </Key>
+          <Property Name="AdvID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="AccID" Type="Int32" />
+          <Property Name="ProvinceID" Type="Int32" />
+          <Property Name="DistrictID" Type="Int32" />
+          <Property Name="TypeID" Type="Int32" />
+          <Property Name="Header" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="Contain" Type="String" MaxLength="4000" Unicode="true" FixedLength="false" />
+          <Property Name="ContactInfo" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="Picture" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="Cost" Type="String" MaxLength="30" Unicode="true" FixedLength="false" />
+          <Property Name="NumReply" Type="Int32" />
+          <Property Name="NumRead" Type="Int32" />
+          <Property Name="AssignTime" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="CreateDate" Type="DateTime" />
+          <Property Name="TimeUpdate" Type="DateTime" />
+          <Property Name="IsHide" Type="Boolean" Nullable="false" />
+          <Property Name="IsClose" Type="Boolean" Nullable="false" />
+          <Property Name="OriginalLink" Type="String" MaxLength="300" Unicode="true" FixedLength="false" />
+          <Property Name="Note" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="IP" Type="String" MaxLength="15" Unicode="false" FixedLength="true" />
+        </EntityType>
+        <EntityType Name="AdvEstate_Tmp">
+          <Key>
+            <PropertyRef Name="AdvID" />
+          </Key>
+          <Property Name="AdvID" Type="Int32" Nullable="false" />
+          <Property Name="Header" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="Contain" Type="String" MaxLength="4000" Unicode="true" FixedLength="false" />
+          <Property Name="ContactInfo" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="AdvEstateDetail">
+          <Key>
+            <PropertyRef Name="AdvDetailID" />
+          </Key>
+          <Property Name="AdvDetailID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="AdvID" Type="Int32" Nullable="false" />
+          <Property Name="AccID" Type="Int32" Nullable="false" />
+          <Property Name="Header" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="Contain" Type="String" MaxLength="4000" Unicode="true" FixedLength="false" />
+          <Property Name="CreateDate" Type="DateTime" />
+          <Property Name="IsHide" Type="Boolean" />
+          <Property Name="IsClose" Type="Boolean" />
+          <Property Name="IP" Type="String" MaxLength="15" Unicode="false" FixedLength="true" />
+        </EntityType>
+        <EntityType Name="AdvEstateDetail_Tmp">
+          <Key>
+            <PropertyRef Name="AdvDetailID" />
+          </Key>
+          <Property Name="AdvDetailID" Type="Int32" Nullable="false" />
+          <Property Name="Header" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="Contain" Type="String" MaxLength="4000" Unicode="true" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="AdvFashion">
+          <Key>
+            <PropertyRef Name="AdvID" />
+          </Key>
+          <Property Name="AdvID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="AccID" Type="Int32" />
+          <Property Name="ProvinceID" Type="Int32" />
+          <Property Name="DistrictID" Type="Int32" />
+          <Property Name="TypeID" Type="Int32" />
+          <Property Name="Header" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="Contain" Type="String" MaxLength="4000" Unicode="true" FixedLength="false" />
+          <Property Name="ContactInfo" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="Picture" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="Cost" Type="String" MaxLength="30" Unicode="true" FixedLength="false" />
+          <Property Name="NumReply" Type="Int32" />
+          <Property Name="NumRead" Type="Int32" />
+          <Property Name="AssignTime" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="CreateDate" Type="DateTime" />
+          <Property Name="TimeUpdate" Type="DateTime" />
+          <Property Name="IsHide" Type="Boolean" Nullable="false" />
+          <Property Name="IsClose" Type="Boolean" Nullable="false" />
+          <Property Name="OriginalLink" Type="String" MaxLength="300" Unicode="true" FixedLength="false" />
+          <Property Name="Note" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="IP" Type="String" MaxLength="15" Unicode="false" FixedLength="true" />
+        </EntityType>
+        <EntityType Name="AdvFashion_Tmp">
+          <Key>
+            <PropertyRef Name="AdvID" />
+          </Key>
+          <Property Name="AdvID" Type="Int32" Nullable="false" />
+          <Property Name="Header" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="Contain" Type="String" MaxLength="4000" Unicode="true" FixedLength="false" />
+          <Property Name="ContactInfo" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="AdvFashionDetail">
+          <Key>
+            <PropertyRef Name="AdvDetailID" />
+          </Key>
+          <Property Name="AdvDetailID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="AdvID" Type="Int32" Nullable="false" />
+          <Property Name="AccID" Type="Int32" Nullable="false" />
+          <Property Name="Header" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="Contain" Type="String" MaxLength="4000" Unicode="true" FixedLength="false" />
+          <Property Name="CreateDate" Type="DateTime" />
+          <Property Name="IsHide" Type="Boolean" />
+          <Property Name="IsClose" Type="Boolean" />
+          <Property Name="IP" Type="String" MaxLength="15" Unicode="false" FixedLength="true" />
+        </EntityType>
+        <EntityType Name="AdvFashionDetail_Tmp">
+          <Key>
+            <PropertyRef Name="AdvDetailID" />
+          </Key>
+          <Property Name="AdvDetailID" Type="Int32" Nullable="false" />
+          <Property Name="Header" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="Contain" Type="String" MaxLength="4000" Unicode="true" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="AdvMakeFriend">
+          <Key>
+            <PropertyRef Name="AdvID" />
+          </Key>
+          <Property Name="AdvID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="Email" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="Password" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="Sex" Type="Byte" Nullable="false" />
+          <Property Name="Degree" Type="Byte" Nullable="false" />
+          <Property Name="MariedStatus" Type="Byte" Nullable="false" />
+          <Property Name="Objective" Type="Byte" Nullable="false" />
+          <Property Name="Age" Type="Byte" Nullable="false" />
+          <Property Name="Height" Type="Byte" Nullable="false" />
+          <Property Name="Weight" Type="Byte" Nullable="false" />
+          <Property Name="YahooNick" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="ProvinceID" Type="Int32" Nullable="false" />
+          <Property Name="Profile" Type="String" Nullable="false" MaxLength="4000" Unicode="true" FixedLength="false" />
+          <Property Name="LookingFor" Type="String" Nullable="false" MaxLength="4000" Unicode="true" FixedLength="false" />
+          <Property Name="CreatedDate" Type="DateTime" />
+          <Property Name="LastLoginDate" Type="DateTime" />
+          <Property Name="Point" Type="Int32" Nullable="false" />
+          <Property Name="Picture" Type="String" MaxLength="256" Unicode="true" FixedLength="false" />
+          <Property Name="Active" Type="Boolean" Nullable="false" />
+          <Property Name="AlertCount" Type="Int32" Nullable="false" />
+          <Property Name="OriginalLink" Type="String" Nullable="false" MaxLength="400" Unicode="true" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="AdvMobile">
+          <Key>
+            <PropertyRef Name="AdvID" />
+          </Key>
+          <Property Name="AdvID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="AccID" Type="Int32" />
+          <Property Name="ProvinceID" Type="Int32" />
+          <Property Name="DistrictID" Type="Int32" />
+          <Property Name="TypeID" Type="Int32" />
+          <Property Name="Header" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="Contain" Type="String" MaxLength="4000" Unicode="true" FixedLength="false" />
+          <Property Name="ContactInfo" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="Picture" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="Cost" Type="String" MaxLength="30" Unicode="true" FixedLength="false" />
+          <Property Name="NumReply" Type="Int32" />
+          <Property Name="NumRead" Type="Int32" />
+          <Property Name="AssignTime" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="CreateDate" Type="DateTime" />
+          <Property Name="TimeUpdate" Type="DateTime" />
+          <Property Name="IsHide" Type="Boolean" Nullable="false" />
+          <Property Name="IsClose" Type="Boolean" Nullable="false" />
+          <Property Name="OriginalLink" Type="String" MaxLength="300" Unicode="true" FixedLength="false" />
+          <Property Name="Note" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="IP" Type="String" MaxLength="15" Unicode="false" FixedLength="true" />
+        </EntityType>
+        <EntityType Name="AdvMobile_Tmp">
+          <Key>
+            <PropertyRef Name="AdvID" />
+          </Key>
+          <Property Name="AdvID" Type="Int32" Nullable="false" />
+          <Property Name="Header" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="Contain" Type="String" MaxLength="4000" Unicode="true" FixedLength="false" />
+          <Property Name="ContactInfo" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="AdvMobileDetail">
+          <Key>
+            <PropertyRef Name="AdvDetailID" />
+          </Key>
+          <Property Name="AdvDetailID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="AdvID" Type="Int32" Nullable="false" />
+          <Property Name="AccID" Type="Int32" Nullable="false" />
+          <Property Name="Header" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="Contain" Type="String" MaxLength="4000" Unicode="true" FixedLength="false" />
+          <Property Name="CreateDate" Type="DateTime" />
+          <Property Name="IsHide" Type="Boolean" />
+          <Property Name="IsClose" Type="Boolean" />
+          <Property Name="IP" Type="String" MaxLength="15" Unicode="false" FixedLength="true" />
+        </EntityType>
+        <EntityType Name="AdvMobileDetail_Tmp">
+          <Key>
+            <PropertyRef Name="AdvDetailID" />
+          </Key>
+          <Property Name="AdvDetailID" Type="Int32" Nullable="false" />
+          <Property Name="Header" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="Contain" Type="String" MaxLength="4000" Unicode="true" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="AdvMotorcycle">
+          <Key>
+            <PropertyRef Name="AdvID" />
+          </Key>
+          <Property Name="AdvID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="AccID" Type="Int32" />
+          <Property Name="ProvinceID" Type="Int32" />
+          <Property Name="DistrictID" Type="Int32" />
+          <Property Name="TypeID" Type="Int32" />
+          <Property Name="Header" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="Contain" Type="String" MaxLength="4000" Unicode="true" FixedLength="false" />
+          <Property Name="ContactInfo" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="Picture" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="Cost" Type="String" MaxLength="30" Unicode="true" FixedLength="false" />
+          <Property Name="NumReply" Type="Int32" />
+          <Property Name="NumRead" Type="Int32" />
+          <Property Name="AssignTime" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="CreateDate" Type="DateTime" />
+          <Property Name="TimeUpdate" Type="DateTime" />
+          <Property Name="IsHide" Type="Boolean" Nullable="false" />
+          <Property Name="IsClose" Type="Boolean" Nullable="false" />
+          <Property Name="OriginalLink" Type="String" MaxLength="300" Unicode="true" FixedLength="false" />
+          <Property Name="Note" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="IP" Type="String" MaxLength="15" Unicode="false" FixedLength="true" />
+        </EntityType>
+        <EntityType Name="AdvMotorcycle_Tmp">
+          <Key>
+            <PropertyRef Name="AdvID" />
+          </Key>
+          <Property Name="AdvID" Type="Int32" Nullable="false" />
+          <Property Name="Header" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="Contain" Type="String" MaxLength="4000" Unicode="true" FixedLength="false" />
+          <Property Name="ContactInfo" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="AdvMotorcycleDetail">
+          <Key>
+            <PropertyRef Name="AdvDetailID" />
+          </Key>
+          <Property Name="AdvDetailID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="AdvID" Type="Int32" Nullable="false" />
+          <Property Name="AccID" Type="Int32" Nullable="false" />
+          <Property Name="Header" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="Contain" Type="String" MaxLength="4000" Unicode="true" FixedLength="false" />
+          <Property Name="CreateDate" Type="DateTime" />
+          <Property Name="IsHide" Type="Boolean" />
+          <Property Name="IsClose" Type="Boolean" />
+          <Property Name="IP" Type="String" MaxLength="15" Unicode="false" FixedLength="true" />
+        </EntityType>
+        <EntityType Name="AdvMotorcycleDetail_Tmp">
+          <Key>
+            <PropertyRef Name="AdvDetailID" />
+          </Key>
+          <Property Name="AdvDetailID" Type="Int32" Nullable="false" />
+          <Property Name="Header" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="Contain" Type="String" MaxLength="4000" Unicode="true" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="AdvStock">
+          <Key>
+            <PropertyRef Name="AdvID" />
+          </Key>
+          <Property Name="AdvID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="AccID" Type="Int32" />
+          <Property Name="ProvinceID" Type="Int32" />
+          <Property Name="DistrictID" Type="Int32" />
+          <Property Name="TypeID" Type="Int32" />
+          <Property Name="Header" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="Contain" Type="String" MaxLength="4000" Unicode="true" FixedLength="false" />
+          <Property Name="ContactInfo" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="Picture" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="Cost" Type="String" MaxLength="30" Unicode="true" FixedLength="false" />
+          <Property Name="NumReply" Type="Int32" />
+          <Property Name="NumRead" Type="Int32" />
+          <Property Name="AssignTime" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="CreateDate" Type="DateTime" />
+          <Property Name="TimeUpdate" Type="DateTime" />
+          <Property Name="IsHide" Type="Boolean" Nullable="false" />
+          <Property Name="IsClose" Type="Boolean" Nullable="false" />
+          <Property Name="OriginalLink" Type="String" MaxLength="300" Unicode="true" FixedLength="false" />
+          <Property Name="Note" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="IP" Type="String" MaxLength="15" Unicode="false" FixedLength="true" />
+        </EntityType>
+        <EntityType Name="AdvStock_Tmp">
+          <Key>
+            <PropertyRef Name="AdvID" />
+          </Key>
+          <Property Name="AdvID" Type="Int32" Nullable="false" />
+          <Property Name="Header" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="Contain" Type="String" MaxLength="4000" Unicode="true" FixedLength="false" />
+          <Property Name="ContactInfo" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="AdvStockDetail">
+          <Key>
+            <PropertyRef Name="AdvDetailID" />
+          </Key>
+          <Property Name="AdvDetailID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="AdvID" Type="Int32" Nullable="false" />
+          <Property Name="AccID" Type="Int32" Nullable="false" />
+          <Property Name="Header" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="Contain" Type="String" MaxLength="4000" Unicode="true" FixedLength="false" />
+          <Property Name="CreateDate" Type="DateTime" />
+          <Property Name="IsHide" Type="Boolean" />
+          <Property Name="IsClose" Type="Boolean" />
+          <Property Name="IP" Type="String" MaxLength="15" Unicode="false" FixedLength="true" />
+        </EntityType>
+        <EntityType Name="AdvStockDetail_Tmp">
+          <Key>
+            <PropertyRef Name="AdvDetailID" />
+          </Key>
+          <Property Name="AdvDetailID" Type="Int32" Nullable="false" />
+          <Property Name="Header" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="Contain" Type="String" MaxLength="4000" Unicode="true" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="AdvWork">
+          <Key>
+            <PropertyRef Name="AdvID" />
+          </Key>
+          <Property Name="AdvID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="AccID" Type="Int32" />
+          <Property Name="ProvinceID" Type="Int32" />
+          <Property Name="DistrictID" Type="Int32" />
+          <Property Name="TypeID" Type="Int32" />
+          <Property Name="Header" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="Contain" Type="String" MaxLength="4000" Unicode="true" FixedLength="false" />
+          <Property Name="ContactInfo" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="Picture" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="Cost" Type="String" MaxLength="30" Unicode="true" FixedLength="false" />
+          <Property Name="NumReply" Type="Int32" />
+          <Property Name="NumRead" Type="Int32" />
+          <Property Name="AssignTime" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="CreateDate" Type="DateTime" />
+          <Property Name="TimeUpdate" Type="DateTime" />
+          <Property Name="IsHide" Type="Boolean" Nullable="false" />
+          <Property Name="IsClose" Type="Boolean" Nullable="false" />
+          <Property Name="OriginalLink" Type="String" MaxLength="300" Unicode="true" FixedLength="false" />
+          <Property Name="Note" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="IP" Type="String" MaxLength="15" Unicode="false" FixedLength="true" />
+        </EntityType>
+        <EntityType Name="AdvWork_Tmp">
+          <Key>
+            <PropertyRef Name="AdvID" />
+          </Key>
+          <Property Name="AdvID" Type="Int32" Nullable="false" />
+          <Property Name="Header" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="Contain" Type="String" MaxLength="4000" Unicode="true" FixedLength="false" />
+          <Property Name="ContactInfo" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="AdvWorkDetail">
+          <Key>
+            <PropertyRef Name="AdvDetailID" />
+          </Key>
+          <Property Name="AdvDetailID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="AdvID" Type="Int32" Nullable="false" />
+          <Property Name="AccID" Type="Int32" Nullable="false" />
+          <Property Name="Header" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="Contain" Type="String" MaxLength="4000" Unicode="true" FixedLength="false" />
+          <Property Name="CreateDate" Type="DateTime" />
+          <Property Name="IsHide" Type="Boolean" />
+          <Property Name="IsClose" Type="Boolean" />
+          <Property Name="IP" Type="String" MaxLength="15" Unicode="false" FixedLength="true" />
+        </EntityType>
+        <EntityType Name="AdvWorkDetail_Tmp">
+          <Key>
+            <PropertyRef Name="AdvDetailID" />
+          </Key>
+          <Property Name="AdvDetailID" Type="Int32" Nullable="false" />
+          <Property Name="Header" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="Contain" Type="String" MaxLength="4000" Unicode="true" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="ChatBox">
+          <Key>
+            <PropertyRef Name="ChatID" />
+          </Key>
+          <Property Name="ChatID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="AccID" Type="Int32" Nullable="false" />
+          <Property Name="UserName" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="Contain" Type="String" Nullable="false" MaxLength="400" Unicode="true" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="email">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="EmailAddress" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Type" Type="Byte" />
+          <Property Name="YahooNick" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="On_User">
+          <Key>
+            <PropertyRef Name="on_userID" />
+          </Key>
+          <Property Name="on_userID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="on_sessionid" Type="Int32" />
+          <Property Name="UserID" Type="Int32" />
+          <Property Name="reload_time" Type="DateTime" />
+          <Property Name="ServerID" Type="Byte" />
+          <Property Name="AccRoleID" Type="Int32" />
+          <Property Name="IsKickedOut" Type="Boolean" />
+          <Property Name="LoginDate" Type="DateTime" />
+          <Property Name="IP" Type="String" MaxLength="15" Unicode="false" FixedLength="false" />
+          <Property Name="Domain" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="Ref_Banner">
+          <Key>
+            <PropertyRef Name="BannerID" />
+          </Key>
+          <Property Name="BannerID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="BannerName" Type="String" MaxLength="200" Unicode="true" FixedLength="false" />
+          <Property Name="HyperLink" Type="String" MaxLength="200" Unicode="true" FixedLength="false" />
+          <Property Name="MenuID" Type="Int32" />
+          <Property Name="Position" Type="Int32" />
+        </EntityType>
+        <EntityType Name="Ref_District">
+          <Key>
+            <PropertyRef Name="DistrictID" />
+          </Key>
+          <Property Name="DistrictID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="DistrictName" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="ProvinceID" Type="Int32" />
+          <Property Name="Lang" Type="String" MaxLength="5" Unicode="true" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="Ref_Info">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Type" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="Info" Type="String" MaxLength="4000" Unicode="true" FixedLength="false" />
+          <Property Name="Lang" Type="String" MaxLength="5" Unicode="true" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="Ref_Menu">
+          <Key>
+            <PropertyRef Name="MenuID" />
+          </Key>
+          <Property Name="MenuID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="MenuName" Type="String" MaxLength="30" Unicode="true" FixedLength="false" />
+          <Property Name="Lang" Type="String" MaxLength="5" Unicode="true" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="Ref_Province">
+          <Key>
+            <PropertyRef Name="ProvinceID" />
+          </Key>
+          <Property Name="ProvinceID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ProvinceName" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="Lang" Type="String" MaxLength="5" Unicode="true" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="Ref_Type">
+          <Key>
+            <PropertyRef Name="TypeID" />
+          </Key>
+          <Property Name="TypeID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="TypeName" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="Lang" Type="String" MaxLength="5" Unicode="true" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="Ref_Unicode">
+          <Key>
+            <PropertyRef Name="UniID" />
+          </Key>
+          <Property Name="UniID" Type="String" Nullable="false" MaxLength="1" Unicode="false" FixedLength="true" />
+          <Property Name="UniName" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="sysdiagram">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="String" Nullable="false" MaxLength="128" Unicode="true" FixedLength="false" />
+          <Property Name="principal_id" Type="Int32" Nullable="false" />
+          <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="version" Type="Int32" />
+          <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="AdvServicesModelStoreContainer" CdmEntityContainer="AdvServicesEntities">
+          <EntitySetMapping Name="Accounts"><EntityTypeMapping TypeName="AdvServicesModel.Account"><MappingFragment StoreEntitySet="Accounts">
+            <ScalarProperty Name="AccID" ColumnName="AccID" />
+            <ScalarProperty Name="UserName" ColumnName="UserName" />
+            <ScalarProperty Name="AccPwd" ColumnName="AccPwd" />
+            <ScalarProperty Name="PassPort" ColumnName="PassPort" />
+            <ScalarProperty Name="Email" ColumnName="Email" />
+            <ScalarProperty Name="FullName" ColumnName="FullName" />
+            <ScalarProperty Name="Address" ColumnName="Address" />
+            <ScalarProperty Name="Mobile" ColumnName="Mobile" />
+            <ScalarProperty Name="CurrID" ColumnName="CurrID" />
+            <ScalarProperty Name="Balance" ColumnName="Balance" />
+            <ScalarProperty Name="Deposit" ColumnName="Deposit" />
+            <ScalarProperty Name="Reason" ColumnName="Reason" />
+            <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+            <ScalarProperty Name="AccRoleID" ColumnName="AccRoleID" />
+            <ScalarProperty Name="UserUpdate" ColumnName="UserUpdate" />
+            <ScalarProperty Name="TimeUpdate" ColumnName="TimeUpdate" />
+            <ScalarProperty Name="Avatar" ColumnName="Avatar" />
+            <ScalarProperty Name="Active" ColumnName="Active" />
+            <ScalarProperty Name="LevelID" ColumnName="LevelID" />
+            <ScalarProperty Name="ThankedNum" ColumnName="ThankedNum" />
+            <ScalarProperty Name="SentNum" ColumnName="SentNum" />
+            <ScalarProperty Name="IP" ColumnName="IP" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="AdvCars"><EntityTypeMapping TypeName="AdvServicesModel.AdvCar"><MappingFragment StoreEntitySet="AdvCar">
+            <ScalarProperty Name="AdvID" ColumnName="AdvID" />
+            <ScalarProperty Name="AccID" ColumnName="AccID" />
+            <ScalarProperty Name="ProvinceID" ColumnName="ProvinceID" />
+            <ScalarProperty Name="DistrictID" ColumnName="DistrictID" />
+            <ScalarProperty Name="TypeID" ColumnName="TypeID" />
+            <ScalarProperty Name="Header" ColumnName="Header" />
+            <ScalarProperty Name="Contain" ColumnName="Contain" />
+            <ScalarProperty Name="ContactInfo" ColumnName="ContactInfo" />
+            <ScalarProperty Name="Picture" ColumnName="Picture" />
+            <ScalarProperty Name="Cost" ColumnName="Cost" />
+            <ScalarProperty Name="NumReply" ColumnName="NumReply" />
+            <ScalarProperty Name="NumRead" ColumnName="NumRead" />
+            <ScalarProperty Name="AssignTime" ColumnName="AssignTime" />
+            <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+            <ScalarProperty Name="TimeUpdate" ColumnName="TimeUpdate" />
+            <ScalarProperty Name="IsHide" ColumnName="IsHide" />
+            <ScalarProperty Name="IsClose" ColumnName="IsClose" />
+            <ScalarProperty Name="OriginalLink" ColumnName="OriginalLink" />
+            <ScalarProperty Name="Note" ColumnName="Note" />
+            <ScalarProperty Name="IP" ColumnName="IP" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="AdvCar_Tmp"><EntityTypeMapping TypeName="AdvServicesModel.AdvCar_Tmp"><MappingFragment StoreEntitySet="AdvCar_Tmp">
+            <ScalarProperty Name="AdvID" ColumnName="AdvID" />
+            <ScalarProperty Name="Header" ColumnName="Header" />
+            <ScalarProperty Name="Contain" ColumnName="Contain" />
+            <ScalarProperty Name="ContactInfo" ColumnName="ContactInfo" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="AdvCarDetails"><EntityTypeMapping TypeName="AdvServicesModel.AdvCarDetail"><MappingFragment StoreEntitySet="AdvCarDetail">
+            <ScalarProperty Name="AdvDetailID" ColumnName="AdvDetailID" />
+            <ScalarProperty Name="AdvID" ColumnName="AdvID" />
+            <ScalarProperty Name="AccID" ColumnName="AccID" />
+            <ScalarProperty Name="Header" ColumnName="Header" />
+            <ScalarProperty Name="Contain" ColumnName="Contain" />
+            <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+            <ScalarProperty Name="IsHide" ColumnName="IsHide" />
+            <ScalarProperty Name="IsClose" ColumnName="IsClose" />
+            <ScalarProperty Name="IP" ColumnName="IP" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="AdvCarDetail_Tmp"><EntityTypeMapping TypeName="AdvServicesModel.AdvCarDetail_Tmp"><MappingFragment StoreEntitySet="AdvCarDetail_Tmp">
+            <ScalarProperty Name="AdvDetailID" ColumnName="AdvDetailID" />
+            <ScalarProperty Name="Header" ColumnName="Header" />
+            <ScalarProperty Name="Contain" ColumnName="Contain" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="AdvComputers"><EntityTypeMapping TypeName="AdvServicesModel.AdvComputer"><MappingFragment StoreEntitySet="AdvComputer">
+            <ScalarProperty Name="AdvID" ColumnName="AdvID" />
+            <ScalarProperty Name="AccID" ColumnName="AccID" />
+            <ScalarProperty Name="ProvinceID" ColumnName="ProvinceID" />
+            <ScalarProperty Name="DistrictID" ColumnName="DistrictID" />
+            <ScalarProperty Name="TypeID" ColumnName="TypeID" />
+            <ScalarProperty Name="Header" ColumnName="Header" />
+            <ScalarProperty Name="Contain" ColumnName="Contain" />
+            <ScalarProperty Name="ContactInfo" ColumnName="ContactInfo" />
+            <ScalarProperty Name="Picture" ColumnName="Picture" />
+            <ScalarProperty Name="Cost" ColumnName="Cost" />
+            <ScalarProperty Name="NumReply" ColumnName="NumReply" />
+            <ScalarProperty Name="NumRead" ColumnName="NumRead" />
+            <ScalarProperty Name="AssignTime" ColumnName="AssignTime" />
+            <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+            <ScalarProperty Name="TimeUpdate" ColumnName="TimeUpdate" />
+            <ScalarProperty Name="IsHide" ColumnName="IsHide" />
+            <ScalarProperty Name="IsClose" ColumnName="IsClose" />
+            <ScalarProperty Name="OriginalLink" ColumnName="OriginalLink" />
+            <ScalarProperty Name="Note" ColumnName="Note" />
+            <ScalarProperty Name="IP" ColumnName="IP" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="AdvComputer_Tmp"><EntityTypeMapping TypeName="AdvServicesModel.AdvComputer_Tmp"><MappingFragment StoreEntitySet="AdvComputer_Tmp">
+            <ScalarProperty Name="AdvID" ColumnName="AdvID" />
+            <ScalarProperty Name="Header" ColumnName="Header" />
+            <ScalarProperty Name="Contain" ColumnName="Contain" />
+            <ScalarProperty Name="ContactInfo" ColumnName="ContactInfo" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="AdvComputerDetails"><EntityTypeMapping TypeName="AdvServicesModel.AdvComputerDetail"><MappingFragment StoreEntitySet="AdvComputerDetail">
+            <ScalarProperty Name="AdvDetailID" ColumnName="AdvDetailID" />
+            <ScalarProperty Name="AdvID" ColumnName="AdvID" />
+            <ScalarProperty Name="AccID" ColumnName="AccID" />
+            <ScalarProperty Name="Header" ColumnName="Header" />
+            <ScalarProperty Name="Contain" ColumnName="Contain" />
+            <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+            <ScalarProperty Name="IsHide" ColumnName="IsHide" />
+            <ScalarProperty Name="IsClose" ColumnName="IsClose" />
+            <ScalarProperty Name="IP" ColumnName="IP" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="AdvComputerDetail_Tmp"><EntityTypeMapping TypeName="AdvServicesModel.AdvComputerDetail_Tmp"><MappingFragment StoreEntitySet="AdvComputerDetail_Tmp">
+            <ScalarProperty Name="AdvDetailID" ColumnName="AdvDetailID" />
+            <ScalarProperty Name="Header" ColumnName="Header" />
+            <ScalarProperty Name="Contain" ColumnName="Contain" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="AdvDomestics"><EntityTypeMapping TypeName="AdvServicesModel.AdvDomestic"><MappingFragment StoreEntitySet="AdvDomestic">
+            <ScalarProperty Name="AdvID" ColumnName="AdvID" />
+            <ScalarProperty Name="AccID" ColumnName="AccID" />
+            <ScalarProperty Name="ProvinceID" ColumnName="ProvinceID" />
+            <ScalarProperty Name="DistrictID" ColumnName="DistrictID" />
+            <ScalarProperty Name="TypeID" ColumnName="TypeID" />
+            <ScalarProperty Name="Header" ColumnName="Header" />
+            <ScalarProperty Name="Contain" ColumnName="Contain" />
+            <ScalarProperty Name="ContactInfo" ColumnName="ContactInfo" />
+            <ScalarProperty Name="Picture" ColumnName="Picture" />
+            <ScalarProperty Name="Cost" ColumnName="Cost" />
+            <ScalarProperty Name="NumReply" ColumnName="NumReply" />
+            <ScalarProperty Name="NumRead" ColumnName="NumRead" />
+            <ScalarProperty Name="AssignTime" ColumnName="AssignTime" />
+            <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+            <ScalarProperty Name="TimeUpdate" ColumnName="TimeUpdate" />
+            <ScalarProperty Name="IsHide" ColumnName="IsHide" />
+            <ScalarProperty Name="IsClose" ColumnName="IsClose" />
+            <ScalarProperty Name="OriginalLink" ColumnName="OriginalLink" />
+            <ScalarProperty Name="Note" ColumnName="Note" />
+            <ScalarProperty Name="IP" ColumnName="IP" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="AdvDomestic_Tmp"><EntityTypeMapping TypeName="AdvServicesModel.AdvDomestic_Tmp"><MappingFragment StoreEntitySet="AdvDomestic_Tmp">
+            <ScalarProperty Name="AdvID" ColumnName="AdvID" />
+            <ScalarProperty Name="Header" ColumnName="Header" />
+            <ScalarProperty Name="Contain" ColumnName="Contain" />
+            <ScalarProperty Name="ContactInfo" ColumnName="ContactInfo" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="AdvDomesticDetails"><EntityTypeMapping TypeName="AdvServicesModel.AdvDomesticDetail"><MappingFragment StoreEntitySet="AdvDomesticDetail">
+            <ScalarProperty Name="AdvDetailID" ColumnName="AdvDetailID" />
+            <ScalarProperty Name="AdvID" ColumnName="AdvID" />
+            <ScalarProperty Name="AccID" ColumnName="AccID" />
+            <ScalarProperty Name="Header" ColumnName="Header" />
+            <ScalarProperty Name="Contain" ColumnName="Contain" />
+            <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+            <ScalarProperty Name="IsHide" ColumnName="IsHide" />
+            <ScalarProperty Name="IsClose" ColumnName="IsClose" />
+            <ScalarProperty Name="IP" ColumnName="IP" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="AdvDomesticDetail_Tmp"><EntityTypeMapping TypeName="AdvServicesModel.AdvDomesticDetail_Tmp"><MappingFragment StoreEntitySet="AdvDomesticDetail_Tmp">
+            <ScalarProperty Name="AdvDetailID" ColumnName="AdvDetailID" />
+            <ScalarProperty Name="Header" ColumnName="Header" />
+            <ScalarProperty Name="Contain" ColumnName="Contain" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="AdvEstates"><EntityTypeMapping TypeName="AdvServicesModel.AdvEstate"><MappingFragment StoreEntitySet="AdvEstate">
+            <ScalarProperty Name="AdvID" ColumnName="AdvID" />
+            <ScalarProperty Name="AccID" ColumnName="AccID" />
+            <ScalarProperty Name="ProvinceID" ColumnName="ProvinceID" />
+            <ScalarProperty Name="DistrictID" ColumnName="DistrictID" />
+            <ScalarProperty Name="TypeID" ColumnName="TypeID" />
+            <ScalarProperty Name="Header" ColumnName="Header" />
+            <ScalarProperty Name="Contain" ColumnName="Contain" />
+            <ScalarProperty Name="ContactInfo" ColumnName="ContactInfo" />
+            <ScalarProperty Name="Picture" ColumnName="Picture" />
+            <ScalarProperty Name="Cost" ColumnName="Cost" />
+            <ScalarProperty Name="NumReply" ColumnName="NumReply" />
+            <ScalarProperty Name="NumRead" ColumnName="NumRead" />
+            <ScalarProperty Name="AssignTime" ColumnName="AssignTime" />
+            <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+            <ScalarProperty Name="TimeUpdate" ColumnName="TimeUpdate" />
+            <ScalarProperty Name="IsHide" ColumnName="IsHide" />
+            <ScalarProperty Name="IsClose" ColumnName="IsClose" />
+            <ScalarProperty Name="OriginalLink" ColumnName="OriginalLink" />
+            <ScalarProperty Name="Note" ColumnName="Note" />
+            <ScalarProperty Name="IP" ColumnName="IP" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="AdvEstate_Tmp"><EntityTypeMapping TypeName="AdvServicesModel.AdvEstate_Tmp"><MappingFragment StoreEntitySet="AdvEstate_Tmp">
+            <ScalarProperty Name="AdvID" ColumnName="AdvID" />
+            <ScalarProperty Name="Header" ColumnName="Header" />
+            <ScalarProperty Name="Contain" ColumnName="Contain" />
+            <ScalarProperty Name="ContactInfo" ColumnName="ContactInfo" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="AdvEstateDetails"><EntityTypeMapping TypeName="AdvServicesModel.AdvEstateDetail"><MappingFragment StoreEntitySet="AdvEstateDetail">
+            <ScalarProperty Name="AdvDetailID" ColumnName="AdvDetailID" />
+            <ScalarProperty Name="AdvID" ColumnName="AdvID" />
+            <ScalarProperty Name="AccID" ColumnName="AccID" />
+            <ScalarProperty Name="Header" ColumnName="Header" />
+            <ScalarProperty Name="Contain" ColumnName="Contain" />
+            <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+            <ScalarProperty Name="IsHide" ColumnName="IsHide" />
+            <ScalarProperty Name="IsClose" ColumnName="IsClose" />
+            <ScalarProperty Name="IP" ColumnName="IP" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="AdvEstateDetail_Tmp"><EntityTypeMapping TypeName="AdvServicesModel.AdvEstateDetail_Tmp"><MappingFragment StoreEntitySet="AdvEstateDetail_Tmp">
+            <ScalarProperty Name="AdvDetailID" ColumnName="AdvDetailID" />
+            <ScalarProperty Name="Header" ColumnName="Header" />
+            <ScalarProperty Name="Contain" ColumnName="Contain" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="AdvFashions"><EntityTypeMapping TypeName="AdvServicesModel.AdvFashion"><MappingFragment StoreEntitySet="AdvFashion">
+            <ScalarProperty Name="AdvID" ColumnName="AdvID" />
+            <ScalarProperty Name="AccID" ColumnName="AccID" />
+            <ScalarProperty Name="ProvinceID" ColumnName="ProvinceID" />
+            <ScalarProperty Name="DistrictID" ColumnName="DistrictID" />
+            <ScalarProperty Name="TypeID" ColumnName="TypeID" />
+            <ScalarProperty Name="Header" ColumnName="Header" />
+            <ScalarProperty Name="Contain" ColumnName="Contain" />
+            <ScalarProperty Name="ContactInfo" ColumnName="ContactInfo" />
+            <ScalarProperty Name="Picture" ColumnName="Picture" />
+            <ScalarProperty Name="Cost" ColumnName="Cost" />
+            <ScalarProperty Name="NumReply" ColumnName="NumReply" />
+            <ScalarProperty Name="NumRead" ColumnName="NumRead" />
+            <ScalarProperty Name="AssignTime" ColumnName="AssignTime" />
+            <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+            <ScalarProperty Name="TimeUpdate" ColumnName="TimeUpdate" />
+            <ScalarProperty Name="IsHide" ColumnName="IsHide" />
+            <ScalarProperty Name="IsClose" ColumnName="IsClose" />
+            <ScalarProperty Name="OriginalLink" ColumnName="OriginalLink" />
+            <ScalarProperty Name="Note" ColumnName="Note" />
+            <ScalarProperty Name="IP" ColumnName="IP" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="AdvFashion_Tmp"><EntityTypeMapping TypeName="AdvServicesModel.AdvFashion_Tmp"><MappingFragment StoreEntitySet="AdvFashion_Tmp">
+            <ScalarProperty Name="AdvID" ColumnName="AdvID" />
+            <ScalarProperty Name="Header" ColumnName="Header" />
+            <ScalarProperty Name="Contain" ColumnName="Contain" />
+            <ScalarProperty Name="ContactInfo" ColumnName="ContactInfo" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="AdvFashionDetails"><EntityTypeMapping TypeName="AdvServicesModel.AdvFashionDetail"><MappingFragment StoreEntitySet="AdvFashionDetail">
+            <ScalarProperty Name="AdvDetailID" ColumnName="AdvDetailID" />
+            <ScalarProperty Name="AdvID" ColumnName="AdvID" />
+            <ScalarProperty Name="AccID" ColumnName="AccID" />
+            <ScalarProperty Name="Header" ColumnName="Header" />
+            <ScalarProperty Name="Contain" ColumnName="Contain" />
+            <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+            <ScalarProperty Name="IsHide" ColumnName="IsHide" />
+            <ScalarProperty Name="IsClose" ColumnName="IsClose" />
+            <ScalarProperty Name="IP" ColumnName="IP" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="AdvFashionDetail_Tmp"><EntityTypeMapping TypeName="AdvServicesModel.AdvFashionDetail_Tmp"><MappingFragment StoreEntitySet="AdvFashionDetail_Tmp">
+            <ScalarProperty Name="AdvDetailID" ColumnName="AdvDetailID" />
+            <ScalarProperty Name="Header" ColumnName="Header" />
+            <ScalarProperty Name="Contain" ColumnName="Contain" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="AdvMakeFriends"><EntityTypeMapping TypeName="AdvServicesModel.AdvMakeFriend"><MappingFragment StoreEntitySet="AdvMakeFriend">
+            <ScalarProperty Name="AdvID" ColumnName="AdvID" />
+            <ScalarProperty Name="Name" ColumnName="Name" />
+            <ScalarProperty Name="Email" ColumnName="Email" />
+            <ScalarProperty Name="Password" ColumnName="Password" />
+            <ScalarProperty Name="Sex" ColumnName="Sex" />
+            <ScalarProperty Name="Degree" ColumnName="Degree" />
+            <ScalarProperty Name="MariedStatus" ColumnName="MariedStatus" />
+            <ScalarProperty Name="Objective" ColumnName="Objective" />
+            <ScalarProperty Name="Age" ColumnName="Age" />
+            <ScalarProperty Name="Height" ColumnName="Height" />
+            <ScalarProperty Name="Weight" ColumnName="Weight" />
+            <ScalarProperty Name="YahooNick" ColumnName="YahooNick" />
+            <ScalarProperty Name="ProvinceID" ColumnName="ProvinceID" />
+            <ScalarProperty Name="Profile" ColumnName="Profile" />
+            <ScalarProperty Name="LookingFor" ColumnName="LookingFor" />
+            <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+            <ScalarProperty Name="LastLoginDate" ColumnName="LastLoginDate" />
+            <ScalarProperty Name="Point" ColumnName="Point" />
+            <ScalarProperty Name="Picture" ColumnName="Picture" />
+            <ScalarProperty Name="Active" ColumnName="Active" />
+            <ScalarProperty Name="AlertCount" ColumnName="AlertCount" />
+            <ScalarProperty Name="OriginalLink" ColumnName="OriginalLink" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="AdvMobiles"><EntityTypeMapping TypeName="AdvServicesModel.AdvMobile"><MappingFragment StoreEntitySet="AdvMobile">
+            <ScalarProperty Name="AdvID" ColumnName="AdvID" />
+            <ScalarProperty Name="AccID" ColumnName="AccID" />
+            <ScalarProperty Name="ProvinceID" ColumnName="ProvinceID" />
+            <ScalarProperty Name="DistrictID" ColumnName="DistrictID" />
+            <ScalarProperty Name="TypeID" ColumnName="TypeID" />
+            <ScalarProperty Name="Header" ColumnName="Header" />
+            <ScalarProperty Name="Contain" ColumnName="Contain" />
+            <ScalarProperty Name="ContactInfo" ColumnName="ContactInfo" />
+            <ScalarProperty Name="Picture" ColumnName="Picture" />
+            <ScalarProperty Name="Cost" ColumnName="Cost" />
+            <ScalarProperty Name="NumReply" ColumnName="NumReply" />
+            <ScalarProperty Name="NumRead" ColumnName="NumRead" />
+            <ScalarProperty Name="AssignTime" ColumnName="AssignTime" />
+            <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+            <ScalarProperty Name="TimeUpdate" ColumnName="TimeUpdate" />
+            <ScalarProperty Name="IsHide" ColumnName="IsHide" />
+            <ScalarProperty Name="IsClose" ColumnName="IsClose" />
+            <ScalarProperty Name="OriginalLink" ColumnName="OriginalLink" />
+            <ScalarProperty Name="Note" ColumnName="Note" />
+            <ScalarProperty Name="IP" ColumnName="IP" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="AdvMobile_Tmp"><EntityTypeMapping TypeName="AdvServicesModel.AdvMobile_Tmp"><MappingFragment StoreEntitySet="AdvMobile_Tmp">
+            <ScalarProperty Name="AdvID" ColumnName="AdvID" />
+            <ScalarProperty Name="Header" ColumnName="Header" />
+            <ScalarProperty Name="Contain" ColumnName="Contain" />
+            <ScalarProperty Name="ContactInfo" ColumnName="ContactInfo" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="AdvMobileDetails"><EntityTypeMapping TypeName="AdvServicesModel.AdvMobileDetail"><MappingFragment StoreEntitySet="AdvMobileDetail">
+            <ScalarProperty Name="AdvDetailID" ColumnName="AdvDetailID" />
+            <ScalarProperty Name="AdvID" ColumnName="AdvID" />
+            <ScalarProperty Name="AccID" ColumnName="AccID" />
+            <ScalarProperty Name="Header" ColumnName="Header" />
+            <ScalarProperty Name="Contain" ColumnName="Contain" />
+            <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+            <ScalarProperty Name="IsHide" ColumnName="IsHide" />
+            <ScalarProperty Name="IsClose" ColumnName="IsClose" />
+            <ScalarProperty Name="IP" ColumnName="IP" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="AdvMobileDetail_Tmp"><EntityTypeMapping TypeName="AdvServicesModel.AdvMobileDetail_Tmp"><MappingFragment StoreEntitySet="AdvMobileDetail_Tmp">
+            <ScalarProperty Name="AdvDetailID" ColumnName="AdvDetailID" />
+            <ScalarProperty Name="Header" ColumnName="Header" />
+            <ScalarProperty Name="Contain" ColumnName="Contain" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="AdvMotorcycles"><EntityTypeMapping TypeName="AdvServicesModel.AdvMotorcycle"><MappingFragment StoreEntitySet="AdvMotorcycle">
+            <ScalarProperty Name="AdvID" ColumnName="AdvID" />
+            <ScalarProperty Name="AccID" ColumnName="AccID" />
+            <ScalarProperty Name="ProvinceID" ColumnName="ProvinceID" />
+            <ScalarProperty Name="DistrictID" ColumnName="DistrictID" />
+            <ScalarProperty Name="TypeID" ColumnName="TypeID" />
+            <ScalarProperty Name="Header" ColumnName="Header" />
+            <ScalarProperty Name="Contain" ColumnName="Contain" />
+            <ScalarProperty Name="ContactInfo" ColumnName="ContactInfo" />
+            <ScalarProperty Name="Picture" ColumnName="Picture" />
+            <ScalarProperty Name="Cost" ColumnName="Cost" />
+            <ScalarProperty Name="NumReply" ColumnName="NumReply" />
+            <ScalarProperty Name="NumRead" ColumnName="NumRead" />
+            <ScalarProperty Name="AssignTime" ColumnName="AssignTime" />
+            <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+            <ScalarProperty Name="TimeUpdate" ColumnName="TimeUpdate" />
+            <ScalarProperty Name="IsHide" ColumnName="IsHide" />
+            <ScalarProperty Name="IsClose" ColumnName="IsClose" />
+            <ScalarProperty Name="OriginalLink" ColumnName="OriginalLink" />
+            <ScalarProperty Name="Note" ColumnName="Note" />
+            <ScalarProperty Name="IP" ColumnName="IP" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="AdvMotorcycle_Tmp"><EntityTypeMapping TypeName="AdvServicesModel.AdvMotorcycle_Tmp"><MappingFragment StoreEntitySet="AdvMotorcycle_Tmp">
+            <ScalarProperty Name="AdvID" ColumnName="AdvID" />
+            <ScalarProperty Name="Header" ColumnName="Header" />
+            <ScalarProperty Name="Contain" ColumnName="Contain" />
+            <ScalarProperty Name="ContactInfo" ColumnName="ContactInfo" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="AdvMotorcycleDetails"><EntityTypeMapping TypeName="AdvServicesModel.AdvMotorcycleDetail"><MappingFragment StoreEntitySet="AdvMotorcycleDetail">
+            <ScalarProperty Name="AdvDetailID" ColumnName="AdvDetailID" />
+            <ScalarProperty Name="AdvID" ColumnName="AdvID" />
+            <ScalarProperty Name="AccID" ColumnName="AccID" />
+            <ScalarProperty Name="Header" ColumnName="Header" />
+            <ScalarProperty Name="Contain" ColumnName="Contain" />
+            <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+            <ScalarProperty Name="IsHide" ColumnName="IsHide" />
+            <ScalarProperty Name="IsClose" ColumnName="IsClose" />
+            <ScalarProperty Name="IP" ColumnName="IP" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="AdvMotorcycleDetail_Tmp"><EntityTypeMapping TypeName="AdvServicesModel.AdvMotorcycleDetail_Tmp"><MappingFragment StoreEntitySet="AdvMotorcycleDetail_Tmp">
+            <ScalarProperty Name="AdvDetailID" ColumnName="AdvDetailID" />
+            <ScalarProperty Name="Header" ColumnName="Header" />
+            <ScalarProperty Name="Contain" ColumnName="Contain" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="AdvStocks"><EntityTypeMapping TypeName="AdvServicesModel.AdvStock"><MappingFragment StoreEntitySet="AdvStock">
+            <ScalarProperty Name="AdvID" ColumnName="AdvID" />
+            <ScalarProperty Name="AccID" ColumnName="AccID" />
+            <ScalarProperty Name="ProvinceID" ColumnName="ProvinceID" />
+            <ScalarProperty Name="DistrictID" ColumnName="DistrictID" />
+            <ScalarProperty Name="TypeID" ColumnName="TypeID" />
+            <ScalarProperty Name="Header" ColumnName="Header" />
+            <ScalarProperty Name="Contain" ColumnName="Contain" />
+            <ScalarProperty Name="ContactInfo" ColumnName="ContactInfo" />
+            <ScalarProperty Name="Picture" ColumnName="Picture" />
+            <ScalarProperty Name="Cost" ColumnName="Cost" />
+            <ScalarProperty Name="NumReply" ColumnName="NumReply" />
+            <ScalarProperty Name="NumRead" ColumnName="NumRead" />
+            <ScalarProperty Name="AssignTime" ColumnName="AssignTime" />
+            <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+            <ScalarProperty Name="TimeUpdate" ColumnName="TimeUpdate" />
+            <ScalarProperty Name="IsHide" ColumnName="IsHide" />
+            <ScalarProperty Name="IsClose" ColumnName="IsClose" />
+            <ScalarProperty Name="OriginalLink" ColumnName="OriginalLink" />
+            <ScalarProperty Name="Note" ColumnName="Note" />
+            <ScalarProperty Name="IP" ColumnName="IP" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="AdvStock_Tmp"><EntityTypeMapping TypeName="AdvServicesModel.AdvStock_Tmp"><MappingFragment StoreEntitySet="AdvStock_Tmp">
+            <ScalarProperty Name="AdvID" ColumnName="AdvID" />
+            <ScalarProperty Name="Header" ColumnName="Header" />
+            <ScalarProperty Name="Contain" ColumnName="Contain" />
+            <ScalarProperty Name="ContactInfo" ColumnName="ContactInfo" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="AdvStockDetails"><EntityTypeMapping TypeName="AdvServicesModel.AdvStockDetail"><MappingFragment StoreEntitySet="AdvStockDetail">
+            <ScalarProperty Name="AdvDetailID" ColumnName="AdvDetailID" />
+            <ScalarProperty Name="AdvID" ColumnName="AdvID" />
+            <ScalarProperty Name="AccID" ColumnName="AccID" />
+            <ScalarProperty Name="Header" ColumnName="Header" />
+            <ScalarProperty Name="Contain" ColumnName="Contain" />
+            <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+            <ScalarProperty Name="IsHide" ColumnName="IsHide" />
+            <ScalarProperty Name="IsClose" ColumnName="IsClose" />
+            <ScalarProperty Name="IP" ColumnName="IP" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="AdvStockDetail_Tmp"><EntityTypeMapping TypeName="AdvServicesModel.AdvStockDetail_Tmp"><MappingFragment StoreEntitySet="AdvStockDetail_Tmp">
+            <ScalarProperty Name="AdvDetailID" ColumnName="AdvDetailID" />
+            <ScalarProperty Name="Header" ColumnName="Header" />
+            <ScalarProperty Name="Contain" ColumnName="Contain" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="AdvWorks"><EntityTypeMapping TypeName="AdvServicesModel.AdvWork"><MappingFragment StoreEntitySet="AdvWork">
+            <ScalarProperty Name="AdvID" ColumnName="AdvID" />
+            <ScalarProperty Name="AccID" ColumnName="AccID" />
+            <ScalarProperty Name="ProvinceID" ColumnName="ProvinceID" />
+            <ScalarProperty Name="DistrictID" ColumnName="DistrictID" />
+            <ScalarProperty Name="TypeID" ColumnName="TypeID" />
+            <ScalarProperty Name="Header" ColumnName="Header" />
+            <ScalarProperty Name="Contain" ColumnName="Contain" />
+            <ScalarProperty Name="ContactInfo" ColumnName="ContactInfo" />
+            <ScalarProperty Name="Picture" ColumnName="Picture" />
+            <ScalarProperty Name="Cost" ColumnName="Cost" />
+            <ScalarProperty Name="NumReply" ColumnName="NumReply" />
+            <ScalarProperty Name="NumRead" ColumnName="NumRead" />
+            <ScalarProperty Name="AssignTime" ColumnName="AssignTime" />
+            <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+            <ScalarProperty Name="TimeUpdate" ColumnName="TimeUpdate" />
+            <ScalarProperty Name="IsHide" ColumnName="IsHide" />
+            <ScalarProperty Name="IsClose" ColumnName="IsClose" />
+            <ScalarProperty Name="OriginalLink" ColumnName="OriginalLink" />
+            <ScalarProperty Name="Note" ColumnName="Note" />
+            <ScalarProperty Name="IP" ColumnName="IP" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="AdvWork_Tmp"><EntityTypeMapping TypeName="AdvServicesModel.AdvWork_Tmp"><MappingFragment StoreEntitySet="AdvWork_Tmp">
+            <ScalarProperty Name="AdvID" ColumnName="AdvID" />
+            <ScalarProperty Name="Header" ColumnName="Header" />
+            <ScalarProperty Name="Contain" ColumnName="Contain" />
+            <ScalarProperty Name="ContactInfo" ColumnName="ContactInfo" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="AdvWorkDetails"><EntityTypeMapping TypeName="AdvServicesModel.AdvWorkDetail"><MappingFragment StoreEntitySet="AdvWorkDetail">
+            <ScalarProperty Name="AdvDetailID" ColumnName="AdvDetailID" />
+            <ScalarProperty Name="AdvID" ColumnName="AdvID" />
+            <ScalarProperty Name="AccID" ColumnName="AccID" />
+            <ScalarProperty Name="Header" ColumnName="Header" />
+            <ScalarProperty Name="Contain" ColumnName="Contain" />
+            <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+            <ScalarProperty Name="IsHide" ColumnName="IsHide" />
+            <ScalarProperty Name="IsClose" ColumnName="IsClose" />
+            <ScalarProperty Name="IP" ColumnName="IP" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="AdvWorkDetail_Tmp"><EntityTypeMapping TypeName="AdvServicesModel.AdvWorkDetail_Tmp"><MappingFragment StoreEntitySet="AdvWorkDetail_Tmp">
+            <ScalarProperty Name="AdvDetailID" ColumnName="AdvDetailID" />
+            <ScalarProperty Name="Header" ColumnName="Header" />
+            <ScalarProperty Name="Contain" ColumnName="Contain" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="ChatBoxes"><EntityTypeMapping TypeName="AdvServicesModel.ChatBox"><MappingFragment StoreEntitySet="ChatBox">
+            <ScalarProperty Name="ChatID" ColumnName="ChatID" />
+            <ScalarProperty Name="AccID" ColumnName="AccID" />
+            <ScalarProperty Name="UserName" ColumnName="UserName" />
+            <ScalarProperty Name="Contain" ColumnName="Contain" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="emails"><EntityTypeMapping TypeName="AdvServicesModel.email"><MappingFragment StoreEntitySet="email">
+            <ScalarProperty Name="EmailAddress" ColumnName="EmailAddress" />
+            <ScalarProperty Name="Id" ColumnName="Id" />
+            <ScalarProperty Name="Type" ColumnName="Type" />
+            <ScalarProperty Name="YahooNick" ColumnName="YahooNick" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="On_User"><EntityTypeMapping TypeName="AdvServicesModel.On_User"><MappingFragment StoreEntitySet="On_User">
+            <ScalarProperty Name="on_userID" ColumnName="on_userID" />
+            <ScalarProperty Name="on_sessionid" ColumnName="on_sessionid" />
+            <ScalarProperty Name="UserID" ColumnName="UserID" />
+            <ScalarProperty Name="reload_time" ColumnName="reload_time" />
+            <ScalarProperty Name="ServerID" ColumnName="ServerID" />
+            <ScalarProperty Name="AccRoleID" ColumnName="AccRoleID" />
+            <ScalarProperty Name="IsKickedOut" ColumnName="IsKickedOut" />
+            <ScalarProperty Name="LoginDate" ColumnName="LoginDate" />
+            <ScalarProperty Name="IP" ColumnName="IP" />
+            <ScalarProperty Name="Domain" ColumnName="Domain" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="Ref_Banner"><EntityTypeMapping TypeName="AdvServicesModel.Ref_Banner"><MappingFragment StoreEntitySet="Ref_Banner">
+            <ScalarProperty Name="BannerID" ColumnName="BannerID" />
+            <ScalarProperty Name="BannerName" ColumnName="BannerName" />
+            <ScalarProperty Name="HyperLink" ColumnName="HyperLink" />
+            <ScalarProperty Name="MenuID" ColumnName="MenuID" />
+            <ScalarProperty Name="Position" ColumnName="Position" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="Ref_District"><EntityTypeMapping TypeName="AdvServicesModel.Ref_District"><MappingFragment StoreEntitySet="Ref_District">
+            <ScalarProperty Name="DistrictID" ColumnName="DistrictID" />
+            <ScalarProperty Name="DistrictName" ColumnName="DistrictName" />
+            <ScalarProperty Name="ProvinceID" ColumnName="ProvinceID" />
+            <ScalarProperty Name="Lang" ColumnName="Lang" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="Ref_Info"><EntityTypeMapping TypeName="AdvServicesModel.Ref_Info"><MappingFragment StoreEntitySet="Ref_Info">
+            <ScalarProperty Name="ID" ColumnName="ID" />
+            <ScalarProperty Name="Type" ColumnName="Type" />
+            <ScalarProperty Name="Info" ColumnName="Info" />
+            <ScalarProperty Name="Lang" ColumnName="Lang" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="Ref_Menu"><EntityTypeMapping TypeName="AdvServicesModel.Ref_Menu"><MappingFragment StoreEntitySet="Ref_Menu">
+            <ScalarProperty Name="MenuID" ColumnName="MenuID" />
+            <ScalarProperty Name="MenuName" ColumnName="MenuName" />
+            <ScalarProperty Name="Lang" ColumnName="Lang" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="Ref_Province"><EntityTypeMapping TypeName="AdvServicesModel.Ref_Province"><MappingFragment StoreEntitySet="Ref_Province">
+            <ScalarProperty Name="ProvinceID" ColumnName="ProvinceID" />
+            <ScalarProperty Name="ProvinceName" ColumnName="ProvinceName" />
+            <ScalarProperty Name="Lang" ColumnName="Lang" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="Ref_Type"><EntityTypeMapping TypeName="AdvServicesModel.Ref_Type"><MappingFragment StoreEntitySet="Ref_Type">
+            <ScalarProperty Name="TypeID" ColumnName="TypeID" />
+            <ScalarProperty Name="TypeName" ColumnName="TypeName" />
+            <ScalarProperty Name="Lang" ColumnName="Lang" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="Ref_Unicode"><EntityTypeMapping TypeName="AdvServicesModel.Ref_Unicode"><MappingFragment StoreEntitySet="Ref_Unicode">
+            <ScalarProperty Name="UniID" ColumnName="UniID" />
+            <ScalarProperty Name="UniName" ColumnName="UniName" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="sysdiagrams"><EntityTypeMapping TypeName="AdvServicesModel.sysdiagram"><MappingFragment StoreEntitySet="sysdiagrams">
+            <ScalarProperty Name="name" ColumnName="name" />
+            <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+            <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+            <ScalarProperty Name="version" ColumnName="version" />
+            <ScalarProperty Name="definition" ColumnName="definition" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams>
+      <Diagram Name="Model">
+        <EntityTypeShape EntityType="AdvServicesModel.Account" Width="1.5" PointX="0.75" PointY="0.75" Height="5.2494108072916656" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdvServicesModel.AdvCar" Width="1.5" PointX="2.75" PointY="0.75" Height="4.8648079427083326" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdvServicesModel.AdvCar_Tmp" Width="1.5" PointX="4.75" PointY="0.75" Height="1.7879850260416665" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdvServicesModel.AdvCarDetail" Width="1.5" PointX="4.75" PointY="3.75" Height="2.7494921874999996" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdvServicesModel.AdvCarDetail_Tmp" Width="1.5" PointX="6.75" PointY="0.75" Height="1.5956835937499996" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdvServicesModel.AdvComputer" Width="1.5" PointX="0.75" PointY="6.75" Height="4.8648079427083317" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdvServicesModel.AdvComputer_Tmp" Width="1.5" PointX="6.75" PointY="3.75" Height="1.7879850260416674" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdvServicesModel.AdvComputerDetail" Width="1.5" PointX="6.75" PointY="6.75" Height="2.7494921874999996" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdvServicesModel.AdvComputerDetail_Tmp" Width="1.5" PointX="2.75" PointY="7.75" Height="1.5956835937499996" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdvServicesModel.AdvDomestic" Width="1.5" PointX="8.75" PointY="0.75" Height="4.8648079427083353" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdvServicesModel.AdvDomestic_Tmp" Width="1.5" PointX="8.75" PointY="6.75" Height="1.7879850260416674" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdvServicesModel.AdvDomesticDetail" Width="1.5" PointX="8.75" PointY="9.75" Height="2.7494921875000031" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdvServicesModel.AdvDomesticDetail_Tmp" Width="1.5" PointX="10.75" PointY="0.75" Height="1.5956835937500031" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdvServicesModel.AdvEstate" Width="1.5" PointX="2.75" PointY="10.75" Height="4.8648079427083388" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdvServicesModel.AdvEstate_Tmp" Width="1.5" PointX="10.75" PointY="3.75" Height="1.7879850260416674" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdvServicesModel.AdvEstateDetail" Width="1.5" PointX="4.75" PointY="10.75" Height="2.7494921875000031" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdvServicesModel.AdvEstateDetail_Tmp" Width="1.5" PointX="10.75" PointY="6.75" Height="1.5956835937500031" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdvServicesModel.AdvFashion" Width="1.5" PointX="10.75" PointY="9.75" Height="4.8648079427083388" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdvServicesModel.AdvFashion_Tmp" Width="1.5" PointX="12.75" PointY="0.75" Height="1.7879850260416674" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdvServicesModel.AdvFashionDetail" Width="1.5" PointX="12.75" PointY="3.75" Height="2.7494921875000031" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdvServicesModel.AdvFashionDetail_Tmp" Width="1.5" PointX="12.75" PointY="7.75" Height="1.5956835937500031" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdvServicesModel.AdvMakeFriend" Width="1.5" PointX="12.75" PointY="10.75" Height="5.2494108072916674" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdvServicesModel.AdvMobile" Width="1.5" PointX="6.75" PointY="13.75" Height="4.8648079427083246" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdvServicesModel.AdvMobile_Tmp" Width="1.5" PointX="14.75" PointY="0.75" Height="1.7879850260416674" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdvServicesModel.AdvMobileDetail" Width="1.5" PointX="14.75" PointY="3.75" Height="2.7494921875000102" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdvServicesModel.AdvMobileDetail_Tmp" Width="1.5" PointX="14.75" PointY="7.75" Height="1.5956835937500102" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdvServicesModel.AdvMotorcycle" Width="1.5" PointX="14.75" PointY="10.75" Height="4.8648079427083246" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdvServicesModel.AdvMotorcycle_Tmp" Width="1.5" PointX="8.75" PointY="15.75" Height="1.7879850260416674" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdvServicesModel.AdvMotorcycleDetail" Width="1.5" PointX="16.75" PointY="0.75" Height="2.7494921875000102" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdvServicesModel.AdvMotorcycleDetail_Tmp" Width="1.5" PointX="0.75" PointY="16.75" Height="1.5956835937500102" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdvServicesModel.AdvStock" Width="1.5" PointX="2.75" PointY="16.75" Height="4.8648079427083246" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdvServicesModel.AdvStock_Tmp" Width="1.5" PointX="16.75" PointY="4.75" Height="1.7879850260416674" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdvServicesModel.AdvStockDetail" Width="1.5" PointX="16.75" PointY="7.75" Height="2.7494921875000102" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdvServicesModel.AdvStockDetail_Tmp" Width="1.5" PointX="10.75" PointY="16.75" Height="1.5956835937500102" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdvServicesModel.AdvWork" Width="1.5" PointX="16.75" PointY="11.75" Height="4.8648079427083246" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdvServicesModel.AdvWork_Tmp" Width="1.5" PointX="12.75" PointY="16.75" Height="1.7879850260416674" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdvServicesModel.AdvWorkDetail" Width="1.5" PointX="14.75" PointY="17.75" Height="2.7494921875000102" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdvServicesModel.AdvWorkDetail_Tmp" Width="1.5" PointX="16.75" PointY="17.75" Height="1.5956835937500102" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdvServicesModel.ChatBox" Width="1.5" PointX="18.75" PointY="0.75" Height="1.7879850260416674" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdvServicesModel.email" Width="1.5" PointX="18.75" PointY="3.75" Height="1.7879850260416674" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdvServicesModel.On_User" Width="1.5" PointX="18.75" PointY="6.75" Height="2.9417936197916674" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdvServicesModel.Ref_Banner" Width="1.5" PointX="18.75" PointY="10.75" Height="1.9802864583333246" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdvServicesModel.Ref_District" Width="1.5" PointX="18.75" PointY="13.75" Height="1.7879850260416674" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdvServicesModel.Ref_Info" Width="1.5" PointX="18.75" PointY="16.75" Height="1.7879850260416674" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdvServicesModel.Ref_Menu" Width="1.5" PointX="4.75" PointY="19.75" Height="1.5956835937499818" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdvServicesModel.Ref_Province" Width="1.5" PointX="6.75" PointY="19.75" Height="1.5956835937499818" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdvServicesModel.Ref_Type" Width="1.5" PointX="8.75" PointY="19.75" Height="1.5956835937499818" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdvServicesModel.Ref_Unicode" Width="1.5" PointX="10.75" PointY="19.75" Height="1.4033821614583246" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdvServicesModel.sysdiagram" Width="1.5" PointX="18.75" PointY="19.75" Height="1.9802864583333246" IsExpanded="true" />
+      </Diagram>
+    </Diagrams>
+  </Designer>
+</edmx:Edmx>

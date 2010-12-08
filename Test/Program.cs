@@ -7,6 +7,7 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using Dynamic.Json;
 using Dynamic.Duck;
+using System.Data.Objects;
 
 namespace Test
 {
@@ -15,25 +16,34 @@ namespace Test
 
         const string CONSUMERKEY = "dj0yJmk9RkNyckRCTWI5MjY1JmQ9WVdrOVJGRnRVbXd5TlRnbWNHbzlNVEU0T1RZeU9UYzJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD1lZA--";
         const string SECRETKEY = "4043ea6ae761316491ac19ea977f589b0cf08fb6";
-        const string USER_NAME = "yournick";
-        const string PASSWORD = "yourpassword";
+        const string USER_NAME = "vietinfo1";
+        const string PASSWORD = "456789!";
 
         static void Main(string[] args)
         {
-            
-
             YMEngine engine = new YMEngine(CONSUMERKEY, SECRETKEY, USER_NAME, PASSWORD);
             engine.SignOn("Test status from C#");
+
+            Test.AdvServicesEntities _entities = new Test.AdvServicesEntities();
+            //var data = from a in _entities.emails where a.Type==1 orderby a.Id ascending select a;
+            var data = from a in _entities.emails where a.Type == 1 select a;
+            foreach (var item in data)
+            {
+                var pp = item.YahooNick;
+                //engine.SendMessage(item.YahooNick, "Test message from C# 123 test");
+            }
+                //ObjectResult<email> Results = _entities.emails.Where(a => a.Type == 1).All();
+                //email email =
+            //engine.SendMessage("vhtuan81", "Test message from C# 123 test");
             //engine.SendMessage("someonenick", "Test message from C#");
             //engine.ChangePresence("Test presence");
             //Contact[] contactList=engine.GetContactList();
             //engine.AddContact("someonenick");
             //engine.DeleteContact("someonenick");
-            engine.ResponseContact("someonenick", false, "I don't know who you are");
-            Console.WriteLine("Press enter key to terminate");
+            //engine.ResponseContact("someonenick", false, "I don't know who you are");
+            Console.WriteLine("Finished! Press enter key to terminate!");
             Console.ReadLine();
             engine.SignOff();
-
         }
     }
 }

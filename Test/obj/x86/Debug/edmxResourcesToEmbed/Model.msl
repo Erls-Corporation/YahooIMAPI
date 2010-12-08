@@ -1,0 +1,714 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="AdvServicesModelStoreContainer" CdmEntityContainer="AdvServicesEntities">
+    <EntitySetMapping Name="Accounts">
+      <EntityTypeMapping TypeName="AdvServicesModel.Account">
+        <MappingFragment StoreEntitySet="Accounts">
+          <ScalarProperty Name="AccID" ColumnName="AccID" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="AccPwd" ColumnName="AccPwd" />
+          <ScalarProperty Name="PassPort" ColumnName="PassPort" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="FullName" ColumnName="FullName" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Mobile" ColumnName="Mobile" />
+          <ScalarProperty Name="CurrID" ColumnName="CurrID" />
+          <ScalarProperty Name="Balance" ColumnName="Balance" />
+          <ScalarProperty Name="Deposit" ColumnName="Deposit" />
+          <ScalarProperty Name="Reason" ColumnName="Reason" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="AccRoleID" ColumnName="AccRoleID" />
+          <ScalarProperty Name="UserUpdate" ColumnName="UserUpdate" />
+          <ScalarProperty Name="TimeUpdate" ColumnName="TimeUpdate" />
+          <ScalarProperty Name="Avatar" ColumnName="Avatar" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="LevelID" ColumnName="LevelID" />
+          <ScalarProperty Name="ThankedNum" ColumnName="ThankedNum" />
+          <ScalarProperty Name="SentNum" ColumnName="SentNum" />
+          <ScalarProperty Name="IP" ColumnName="IP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AdvCars">
+      <EntityTypeMapping TypeName="AdvServicesModel.AdvCar">
+        <MappingFragment StoreEntitySet="AdvCar">
+          <ScalarProperty Name="AdvID" ColumnName="AdvID" />
+          <ScalarProperty Name="AccID" ColumnName="AccID" />
+          <ScalarProperty Name="ProvinceID" ColumnName="ProvinceID" />
+          <ScalarProperty Name="DistrictID" ColumnName="DistrictID" />
+          <ScalarProperty Name="TypeID" ColumnName="TypeID" />
+          <ScalarProperty Name="Header" ColumnName="Header" />
+          <ScalarProperty Name="Contain" ColumnName="Contain" />
+          <ScalarProperty Name="ContactInfo" ColumnName="ContactInfo" />
+          <ScalarProperty Name="Picture" ColumnName="Picture" />
+          <ScalarProperty Name="Cost" ColumnName="Cost" />
+          <ScalarProperty Name="NumReply" ColumnName="NumReply" />
+          <ScalarProperty Name="NumRead" ColumnName="NumRead" />
+          <ScalarProperty Name="AssignTime" ColumnName="AssignTime" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="TimeUpdate" ColumnName="TimeUpdate" />
+          <ScalarProperty Name="IsHide" ColumnName="IsHide" />
+          <ScalarProperty Name="IsClose" ColumnName="IsClose" />
+          <ScalarProperty Name="OriginalLink" ColumnName="OriginalLink" />
+          <ScalarProperty Name="Note" ColumnName="Note" />
+          <ScalarProperty Name="IP" ColumnName="IP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AdvCar_Tmp">
+      <EntityTypeMapping TypeName="AdvServicesModel.AdvCar_Tmp">
+        <MappingFragment StoreEntitySet="AdvCar_Tmp">
+          <ScalarProperty Name="AdvID" ColumnName="AdvID" />
+          <ScalarProperty Name="Header" ColumnName="Header" />
+          <ScalarProperty Name="Contain" ColumnName="Contain" />
+          <ScalarProperty Name="ContactInfo" ColumnName="ContactInfo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AdvCarDetails">
+      <EntityTypeMapping TypeName="AdvServicesModel.AdvCarDetail">
+        <MappingFragment StoreEntitySet="AdvCarDetail">
+          <ScalarProperty Name="AdvDetailID" ColumnName="AdvDetailID" />
+          <ScalarProperty Name="AdvID" ColumnName="AdvID" />
+          <ScalarProperty Name="AccID" ColumnName="AccID" />
+          <ScalarProperty Name="Header" ColumnName="Header" />
+          <ScalarProperty Name="Contain" ColumnName="Contain" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="IsHide" ColumnName="IsHide" />
+          <ScalarProperty Name="IsClose" ColumnName="IsClose" />
+          <ScalarProperty Name="IP" ColumnName="IP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AdvCarDetail_Tmp">
+      <EntityTypeMapping TypeName="AdvServicesModel.AdvCarDetail_Tmp">
+        <MappingFragment StoreEntitySet="AdvCarDetail_Tmp">
+          <ScalarProperty Name="AdvDetailID" ColumnName="AdvDetailID" />
+          <ScalarProperty Name="Header" ColumnName="Header" />
+          <ScalarProperty Name="Contain" ColumnName="Contain" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AdvComputers">
+      <EntityTypeMapping TypeName="AdvServicesModel.AdvComputer">
+        <MappingFragment StoreEntitySet="AdvComputer">
+          <ScalarProperty Name="AdvID" ColumnName="AdvID" />
+          <ScalarProperty Name="AccID" ColumnName="AccID" />
+          <ScalarProperty Name="ProvinceID" ColumnName="ProvinceID" />
+          <ScalarProperty Name="DistrictID" ColumnName="DistrictID" />
+          <ScalarProperty Name="TypeID" ColumnName="TypeID" />
+          <ScalarProperty Name="Header" ColumnName="Header" />
+          <ScalarProperty Name="Contain" ColumnName="Contain" />
+          <ScalarProperty Name="ContactInfo" ColumnName="ContactInfo" />
+          <ScalarProperty Name="Picture" ColumnName="Picture" />
+          <ScalarProperty Name="Cost" ColumnName="Cost" />
+          <ScalarProperty Name="NumReply" ColumnName="NumReply" />
+          <ScalarProperty Name="NumRead" ColumnName="NumRead" />
+          <ScalarProperty Name="AssignTime" ColumnName="AssignTime" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="TimeUpdate" ColumnName="TimeUpdate" />
+          <ScalarProperty Name="IsHide" ColumnName="IsHide" />
+          <ScalarProperty Name="IsClose" ColumnName="IsClose" />
+          <ScalarProperty Name="OriginalLink" ColumnName="OriginalLink" />
+          <ScalarProperty Name="Note" ColumnName="Note" />
+          <ScalarProperty Name="IP" ColumnName="IP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AdvComputer_Tmp">
+      <EntityTypeMapping TypeName="AdvServicesModel.AdvComputer_Tmp">
+        <MappingFragment StoreEntitySet="AdvComputer_Tmp">
+          <ScalarProperty Name="AdvID" ColumnName="AdvID" />
+          <ScalarProperty Name="Header" ColumnName="Header" />
+          <ScalarProperty Name="Contain" ColumnName="Contain" />
+          <ScalarProperty Name="ContactInfo" ColumnName="ContactInfo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AdvComputerDetails">
+      <EntityTypeMapping TypeName="AdvServicesModel.AdvComputerDetail">
+        <MappingFragment StoreEntitySet="AdvComputerDetail">
+          <ScalarProperty Name="AdvDetailID" ColumnName="AdvDetailID" />
+          <ScalarProperty Name="AdvID" ColumnName="AdvID" />
+          <ScalarProperty Name="AccID" ColumnName="AccID" />
+          <ScalarProperty Name="Header" ColumnName="Header" />
+          <ScalarProperty Name="Contain" ColumnName="Contain" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="IsHide" ColumnName="IsHide" />
+          <ScalarProperty Name="IsClose" ColumnName="IsClose" />
+          <ScalarProperty Name="IP" ColumnName="IP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AdvComputerDetail_Tmp">
+      <EntityTypeMapping TypeName="AdvServicesModel.AdvComputerDetail_Tmp">
+        <MappingFragment StoreEntitySet="AdvComputerDetail_Tmp">
+          <ScalarProperty Name="AdvDetailID" ColumnName="AdvDetailID" />
+          <ScalarProperty Name="Header" ColumnName="Header" />
+          <ScalarProperty Name="Contain" ColumnName="Contain" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AdvDomestics">
+      <EntityTypeMapping TypeName="AdvServicesModel.AdvDomestic">
+        <MappingFragment StoreEntitySet="AdvDomestic">
+          <ScalarProperty Name="AdvID" ColumnName="AdvID" />
+          <ScalarProperty Name="AccID" ColumnName="AccID" />
+          <ScalarProperty Name="ProvinceID" ColumnName="ProvinceID" />
+          <ScalarProperty Name="DistrictID" ColumnName="DistrictID" />
+          <ScalarProperty Name="TypeID" ColumnName="TypeID" />
+          <ScalarProperty Name="Header" ColumnName="Header" />
+          <ScalarProperty Name="Contain" ColumnName="Contain" />
+          <ScalarProperty Name="ContactInfo" ColumnName="ContactInfo" />
+          <ScalarProperty Name="Picture" ColumnName="Picture" />
+          <ScalarProperty Name="Cost" ColumnName="Cost" />
+          <ScalarProperty Name="NumReply" ColumnName="NumReply" />
+          <ScalarProperty Name="NumRead" ColumnName="NumRead" />
+          <ScalarProperty Name="AssignTime" ColumnName="AssignTime" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="TimeUpdate" ColumnName="TimeUpdate" />
+          <ScalarProperty Name="IsHide" ColumnName="IsHide" />
+          <ScalarProperty Name="IsClose" ColumnName="IsClose" />
+          <ScalarProperty Name="OriginalLink" ColumnName="OriginalLink" />
+          <ScalarProperty Name="Note" ColumnName="Note" />
+          <ScalarProperty Name="IP" ColumnName="IP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AdvDomestic_Tmp">
+      <EntityTypeMapping TypeName="AdvServicesModel.AdvDomestic_Tmp">
+        <MappingFragment StoreEntitySet="AdvDomestic_Tmp">
+          <ScalarProperty Name="AdvID" ColumnName="AdvID" />
+          <ScalarProperty Name="Header" ColumnName="Header" />
+          <ScalarProperty Name="Contain" ColumnName="Contain" />
+          <ScalarProperty Name="ContactInfo" ColumnName="ContactInfo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AdvDomesticDetails">
+      <EntityTypeMapping TypeName="AdvServicesModel.AdvDomesticDetail">
+        <MappingFragment StoreEntitySet="AdvDomesticDetail">
+          <ScalarProperty Name="AdvDetailID" ColumnName="AdvDetailID" />
+          <ScalarProperty Name="AdvID" ColumnName="AdvID" />
+          <ScalarProperty Name="AccID" ColumnName="AccID" />
+          <ScalarProperty Name="Header" ColumnName="Header" />
+          <ScalarProperty Name="Contain" ColumnName="Contain" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="IsHide" ColumnName="IsHide" />
+          <ScalarProperty Name="IsClose" ColumnName="IsClose" />
+          <ScalarProperty Name="IP" ColumnName="IP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AdvDomesticDetail_Tmp">
+      <EntityTypeMapping TypeName="AdvServicesModel.AdvDomesticDetail_Tmp">
+        <MappingFragment StoreEntitySet="AdvDomesticDetail_Tmp">
+          <ScalarProperty Name="AdvDetailID" ColumnName="AdvDetailID" />
+          <ScalarProperty Name="Header" ColumnName="Header" />
+          <ScalarProperty Name="Contain" ColumnName="Contain" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AdvEstates">
+      <EntityTypeMapping TypeName="AdvServicesModel.AdvEstate">
+        <MappingFragment StoreEntitySet="AdvEstate">
+          <ScalarProperty Name="AdvID" ColumnName="AdvID" />
+          <ScalarProperty Name="AccID" ColumnName="AccID" />
+          <ScalarProperty Name="ProvinceID" ColumnName="ProvinceID" />
+          <ScalarProperty Name="DistrictID" ColumnName="DistrictID" />
+          <ScalarProperty Name="TypeID" ColumnName="TypeID" />
+          <ScalarProperty Name="Header" ColumnName="Header" />
+          <ScalarProperty Name="Contain" ColumnName="Contain" />
+          <ScalarProperty Name="ContactInfo" ColumnName="ContactInfo" />
+          <ScalarProperty Name="Picture" ColumnName="Picture" />
+          <ScalarProperty Name="Cost" ColumnName="Cost" />
+          <ScalarProperty Name="NumReply" ColumnName="NumReply" />
+          <ScalarProperty Name="NumRead" ColumnName="NumRead" />
+          <ScalarProperty Name="AssignTime" ColumnName="AssignTime" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="TimeUpdate" ColumnName="TimeUpdate" />
+          <ScalarProperty Name="IsHide" ColumnName="IsHide" />
+          <ScalarProperty Name="IsClose" ColumnName="IsClose" />
+          <ScalarProperty Name="OriginalLink" ColumnName="OriginalLink" />
+          <ScalarProperty Name="Note" ColumnName="Note" />
+          <ScalarProperty Name="IP" ColumnName="IP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AdvEstate_Tmp">
+      <EntityTypeMapping TypeName="AdvServicesModel.AdvEstate_Tmp">
+        <MappingFragment StoreEntitySet="AdvEstate_Tmp">
+          <ScalarProperty Name="AdvID" ColumnName="AdvID" />
+          <ScalarProperty Name="Header" ColumnName="Header" />
+          <ScalarProperty Name="Contain" ColumnName="Contain" />
+          <ScalarProperty Name="ContactInfo" ColumnName="ContactInfo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AdvEstateDetails">
+      <EntityTypeMapping TypeName="AdvServicesModel.AdvEstateDetail">
+        <MappingFragment StoreEntitySet="AdvEstateDetail">
+          <ScalarProperty Name="AdvDetailID" ColumnName="AdvDetailID" />
+          <ScalarProperty Name="AdvID" ColumnName="AdvID" />
+          <ScalarProperty Name="AccID" ColumnName="AccID" />
+          <ScalarProperty Name="Header" ColumnName="Header" />
+          <ScalarProperty Name="Contain" ColumnName="Contain" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="IsHide" ColumnName="IsHide" />
+          <ScalarProperty Name="IsClose" ColumnName="IsClose" />
+          <ScalarProperty Name="IP" ColumnName="IP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AdvEstateDetail_Tmp">
+      <EntityTypeMapping TypeName="AdvServicesModel.AdvEstateDetail_Tmp">
+        <MappingFragment StoreEntitySet="AdvEstateDetail_Tmp">
+          <ScalarProperty Name="AdvDetailID" ColumnName="AdvDetailID" />
+          <ScalarProperty Name="Header" ColumnName="Header" />
+          <ScalarProperty Name="Contain" ColumnName="Contain" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AdvFashions">
+      <EntityTypeMapping TypeName="AdvServicesModel.AdvFashion">
+        <MappingFragment StoreEntitySet="AdvFashion">
+          <ScalarProperty Name="AdvID" ColumnName="AdvID" />
+          <ScalarProperty Name="AccID" ColumnName="AccID" />
+          <ScalarProperty Name="ProvinceID" ColumnName="ProvinceID" />
+          <ScalarProperty Name="DistrictID" ColumnName="DistrictID" />
+          <ScalarProperty Name="TypeID" ColumnName="TypeID" />
+          <ScalarProperty Name="Header" ColumnName="Header" />
+          <ScalarProperty Name="Contain" ColumnName="Contain" />
+          <ScalarProperty Name="ContactInfo" ColumnName="ContactInfo" />
+          <ScalarProperty Name="Picture" ColumnName="Picture" />
+          <ScalarProperty Name="Cost" ColumnName="Cost" />
+          <ScalarProperty Name="NumReply" ColumnName="NumReply" />
+          <ScalarProperty Name="NumRead" ColumnName="NumRead" />
+          <ScalarProperty Name="AssignTime" ColumnName="AssignTime" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="TimeUpdate" ColumnName="TimeUpdate" />
+          <ScalarProperty Name="IsHide" ColumnName="IsHide" />
+          <ScalarProperty Name="IsClose" ColumnName="IsClose" />
+          <ScalarProperty Name="OriginalLink" ColumnName="OriginalLink" />
+          <ScalarProperty Name="Note" ColumnName="Note" />
+          <ScalarProperty Name="IP" ColumnName="IP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AdvFashion_Tmp">
+      <EntityTypeMapping TypeName="AdvServicesModel.AdvFashion_Tmp">
+        <MappingFragment StoreEntitySet="AdvFashion_Tmp">
+          <ScalarProperty Name="AdvID" ColumnName="AdvID" />
+          <ScalarProperty Name="Header" ColumnName="Header" />
+          <ScalarProperty Name="Contain" ColumnName="Contain" />
+          <ScalarProperty Name="ContactInfo" ColumnName="ContactInfo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AdvFashionDetails">
+      <EntityTypeMapping TypeName="AdvServicesModel.AdvFashionDetail">
+        <MappingFragment StoreEntitySet="AdvFashionDetail">
+          <ScalarProperty Name="AdvDetailID" ColumnName="AdvDetailID" />
+          <ScalarProperty Name="AdvID" ColumnName="AdvID" />
+          <ScalarProperty Name="AccID" ColumnName="AccID" />
+          <ScalarProperty Name="Header" ColumnName="Header" />
+          <ScalarProperty Name="Contain" ColumnName="Contain" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="IsHide" ColumnName="IsHide" />
+          <ScalarProperty Name="IsClose" ColumnName="IsClose" />
+          <ScalarProperty Name="IP" ColumnName="IP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AdvFashionDetail_Tmp">
+      <EntityTypeMapping TypeName="AdvServicesModel.AdvFashionDetail_Tmp">
+        <MappingFragment StoreEntitySet="AdvFashionDetail_Tmp">
+          <ScalarProperty Name="AdvDetailID" ColumnName="AdvDetailID" />
+          <ScalarProperty Name="Header" ColumnName="Header" />
+          <ScalarProperty Name="Contain" ColumnName="Contain" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AdvMakeFriends">
+      <EntityTypeMapping TypeName="AdvServicesModel.AdvMakeFriend">
+        <MappingFragment StoreEntitySet="AdvMakeFriend">
+          <ScalarProperty Name="AdvID" ColumnName="AdvID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Sex" ColumnName="Sex" />
+          <ScalarProperty Name="Degree" ColumnName="Degree" />
+          <ScalarProperty Name="MariedStatus" ColumnName="MariedStatus" />
+          <ScalarProperty Name="Objective" ColumnName="Objective" />
+          <ScalarProperty Name="Age" ColumnName="Age" />
+          <ScalarProperty Name="Height" ColumnName="Height" />
+          <ScalarProperty Name="Weight" ColumnName="Weight" />
+          <ScalarProperty Name="YahooNick" ColumnName="YahooNick" />
+          <ScalarProperty Name="ProvinceID" ColumnName="ProvinceID" />
+          <ScalarProperty Name="Profile" ColumnName="Profile" />
+          <ScalarProperty Name="LookingFor" ColumnName="LookingFor" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="LastLoginDate" ColumnName="LastLoginDate" />
+          <ScalarProperty Name="Point" ColumnName="Point" />
+          <ScalarProperty Name="Picture" ColumnName="Picture" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="AlertCount" ColumnName="AlertCount" />
+          <ScalarProperty Name="OriginalLink" ColumnName="OriginalLink" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AdvMobiles">
+      <EntityTypeMapping TypeName="AdvServicesModel.AdvMobile">
+        <MappingFragment StoreEntitySet="AdvMobile">
+          <ScalarProperty Name="AdvID" ColumnName="AdvID" />
+          <ScalarProperty Name="AccID" ColumnName="AccID" />
+          <ScalarProperty Name="ProvinceID" ColumnName="ProvinceID" />
+          <ScalarProperty Name="DistrictID" ColumnName="DistrictID" />
+          <ScalarProperty Name="TypeID" ColumnName="TypeID" />
+          <ScalarProperty Name="Header" ColumnName="Header" />
+          <ScalarProperty Name="Contain" ColumnName="Contain" />
+          <ScalarProperty Name="ContactInfo" ColumnName="ContactInfo" />
+          <ScalarProperty Name="Picture" ColumnName="Picture" />
+          <ScalarProperty Name="Cost" ColumnName="Cost" />
+          <ScalarProperty Name="NumReply" ColumnName="NumReply" />
+          <ScalarProperty Name="NumRead" ColumnName="NumRead" />
+          <ScalarProperty Name="AssignTime" ColumnName="AssignTime" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="TimeUpdate" ColumnName="TimeUpdate" />
+          <ScalarProperty Name="IsHide" ColumnName="IsHide" />
+          <ScalarProperty Name="IsClose" ColumnName="IsClose" />
+          <ScalarProperty Name="OriginalLink" ColumnName="OriginalLink" />
+          <ScalarProperty Name="Note" ColumnName="Note" />
+          <ScalarProperty Name="IP" ColumnName="IP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AdvMobile_Tmp">
+      <EntityTypeMapping TypeName="AdvServicesModel.AdvMobile_Tmp">
+        <MappingFragment StoreEntitySet="AdvMobile_Tmp">
+          <ScalarProperty Name="AdvID" ColumnName="AdvID" />
+          <ScalarProperty Name="Header" ColumnName="Header" />
+          <ScalarProperty Name="Contain" ColumnName="Contain" />
+          <ScalarProperty Name="ContactInfo" ColumnName="ContactInfo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AdvMobileDetails">
+      <EntityTypeMapping TypeName="AdvServicesModel.AdvMobileDetail">
+        <MappingFragment StoreEntitySet="AdvMobileDetail">
+          <ScalarProperty Name="AdvDetailID" ColumnName="AdvDetailID" />
+          <ScalarProperty Name="AdvID" ColumnName="AdvID" />
+          <ScalarProperty Name="AccID" ColumnName="AccID" />
+          <ScalarProperty Name="Header" ColumnName="Header" />
+          <ScalarProperty Name="Contain" ColumnName="Contain" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="IsHide" ColumnName="IsHide" />
+          <ScalarProperty Name="IsClose" ColumnName="IsClose" />
+          <ScalarProperty Name="IP" ColumnName="IP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AdvMobileDetail_Tmp">
+      <EntityTypeMapping TypeName="AdvServicesModel.AdvMobileDetail_Tmp">
+        <MappingFragment StoreEntitySet="AdvMobileDetail_Tmp">
+          <ScalarProperty Name="AdvDetailID" ColumnName="AdvDetailID" />
+          <ScalarProperty Name="Header" ColumnName="Header" />
+          <ScalarProperty Name="Contain" ColumnName="Contain" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AdvMotorcycles">
+      <EntityTypeMapping TypeName="AdvServicesModel.AdvMotorcycle">
+        <MappingFragment StoreEntitySet="AdvMotorcycle">
+          <ScalarProperty Name="AdvID" ColumnName="AdvID" />
+          <ScalarProperty Name="AccID" ColumnName="AccID" />
+          <ScalarProperty Name="ProvinceID" ColumnName="ProvinceID" />
+          <ScalarProperty Name="DistrictID" ColumnName="DistrictID" />
+          <ScalarProperty Name="TypeID" ColumnName="TypeID" />
+          <ScalarProperty Name="Header" ColumnName="Header" />
+          <ScalarProperty Name="Contain" ColumnName="Contain" />
+          <ScalarProperty Name="ContactInfo" ColumnName="ContactInfo" />
+          <ScalarProperty Name="Picture" ColumnName="Picture" />
+          <ScalarProperty Name="Cost" ColumnName="Cost" />
+          <ScalarProperty Name="NumReply" ColumnName="NumReply" />
+          <ScalarProperty Name="NumRead" ColumnName="NumRead" />
+          <ScalarProperty Name="AssignTime" ColumnName="AssignTime" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="TimeUpdate" ColumnName="TimeUpdate" />
+          <ScalarProperty Name="IsHide" ColumnName="IsHide" />
+          <ScalarProperty Name="IsClose" ColumnName="IsClose" />
+          <ScalarProperty Name="OriginalLink" ColumnName="OriginalLink" />
+          <ScalarProperty Name="Note" ColumnName="Note" />
+          <ScalarProperty Name="IP" ColumnName="IP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AdvMotorcycle_Tmp">
+      <EntityTypeMapping TypeName="AdvServicesModel.AdvMotorcycle_Tmp">
+        <MappingFragment StoreEntitySet="AdvMotorcycle_Tmp">
+          <ScalarProperty Name="AdvID" ColumnName="AdvID" />
+          <ScalarProperty Name="Header" ColumnName="Header" />
+          <ScalarProperty Name="Contain" ColumnName="Contain" />
+          <ScalarProperty Name="ContactInfo" ColumnName="ContactInfo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AdvMotorcycleDetails">
+      <EntityTypeMapping TypeName="AdvServicesModel.AdvMotorcycleDetail">
+        <MappingFragment StoreEntitySet="AdvMotorcycleDetail">
+          <ScalarProperty Name="AdvDetailID" ColumnName="AdvDetailID" />
+          <ScalarProperty Name="AdvID" ColumnName="AdvID" />
+          <ScalarProperty Name="AccID" ColumnName="AccID" />
+          <ScalarProperty Name="Header" ColumnName="Header" />
+          <ScalarProperty Name="Contain" ColumnName="Contain" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="IsHide" ColumnName="IsHide" />
+          <ScalarProperty Name="IsClose" ColumnName="IsClose" />
+          <ScalarProperty Name="IP" ColumnName="IP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AdvMotorcycleDetail_Tmp">
+      <EntityTypeMapping TypeName="AdvServicesModel.AdvMotorcycleDetail_Tmp">
+        <MappingFragment StoreEntitySet="AdvMotorcycleDetail_Tmp">
+          <ScalarProperty Name="AdvDetailID" ColumnName="AdvDetailID" />
+          <ScalarProperty Name="Header" ColumnName="Header" />
+          <ScalarProperty Name="Contain" ColumnName="Contain" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AdvStocks">
+      <EntityTypeMapping TypeName="AdvServicesModel.AdvStock">
+        <MappingFragment StoreEntitySet="AdvStock">
+          <ScalarProperty Name="AdvID" ColumnName="AdvID" />
+          <ScalarProperty Name="AccID" ColumnName="AccID" />
+          <ScalarProperty Name="ProvinceID" ColumnName="ProvinceID" />
+          <ScalarProperty Name="DistrictID" ColumnName="DistrictID" />
+          <ScalarProperty Name="TypeID" ColumnName="TypeID" />
+          <ScalarProperty Name="Header" ColumnName="Header" />
+          <ScalarProperty Name="Contain" ColumnName="Contain" />
+          <ScalarProperty Name="ContactInfo" ColumnName="ContactInfo" />
+          <ScalarProperty Name="Picture" ColumnName="Picture" />
+          <ScalarProperty Name="Cost" ColumnName="Cost" />
+          <ScalarProperty Name="NumReply" ColumnName="NumReply" />
+          <ScalarProperty Name="NumRead" ColumnName="NumRead" />
+          <ScalarProperty Name="AssignTime" ColumnName="AssignTime" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="TimeUpdate" ColumnName="TimeUpdate" />
+          <ScalarProperty Name="IsHide" ColumnName="IsHide" />
+          <ScalarProperty Name="IsClose" ColumnName="IsClose" />
+          <ScalarProperty Name="OriginalLink" ColumnName="OriginalLink" />
+          <ScalarProperty Name="Note" ColumnName="Note" />
+          <ScalarProperty Name="IP" ColumnName="IP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AdvStock_Tmp">
+      <EntityTypeMapping TypeName="AdvServicesModel.AdvStock_Tmp">
+        <MappingFragment StoreEntitySet="AdvStock_Tmp">
+          <ScalarProperty Name="AdvID" ColumnName="AdvID" />
+          <ScalarProperty Name="Header" ColumnName="Header" />
+          <ScalarProperty Name="Contain" ColumnName="Contain" />
+          <ScalarProperty Name="ContactInfo" ColumnName="ContactInfo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AdvStockDetails">
+      <EntityTypeMapping TypeName="AdvServicesModel.AdvStockDetail">
+        <MappingFragment StoreEntitySet="AdvStockDetail">
+          <ScalarProperty Name="AdvDetailID" ColumnName="AdvDetailID" />
+          <ScalarProperty Name="AdvID" ColumnName="AdvID" />
+          <ScalarProperty Name="AccID" ColumnName="AccID" />
+          <ScalarProperty Name="Header" ColumnName="Header" />
+          <ScalarProperty Name="Contain" ColumnName="Contain" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="IsHide" ColumnName="IsHide" />
+          <ScalarProperty Name="IsClose" ColumnName="IsClose" />
+          <ScalarProperty Name="IP" ColumnName="IP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AdvStockDetail_Tmp">
+      <EntityTypeMapping TypeName="AdvServicesModel.AdvStockDetail_Tmp">
+        <MappingFragment StoreEntitySet="AdvStockDetail_Tmp">
+          <ScalarProperty Name="AdvDetailID" ColumnName="AdvDetailID" />
+          <ScalarProperty Name="Header" ColumnName="Header" />
+          <ScalarProperty Name="Contain" ColumnName="Contain" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AdvWorks">
+      <EntityTypeMapping TypeName="AdvServicesModel.AdvWork">
+        <MappingFragment StoreEntitySet="AdvWork">
+          <ScalarProperty Name="AdvID" ColumnName="AdvID" />
+          <ScalarProperty Name="AccID" ColumnName="AccID" />
+          <ScalarProperty Name="ProvinceID" ColumnName="ProvinceID" />
+          <ScalarProperty Name="DistrictID" ColumnName="DistrictID" />
+          <ScalarProperty Name="TypeID" ColumnName="TypeID" />
+          <ScalarProperty Name="Header" ColumnName="Header" />
+          <ScalarProperty Name="Contain" ColumnName="Contain" />
+          <ScalarProperty Name="ContactInfo" ColumnName="ContactInfo" />
+          <ScalarProperty Name="Picture" ColumnName="Picture" />
+          <ScalarProperty Name="Cost" ColumnName="Cost" />
+          <ScalarProperty Name="NumReply" ColumnName="NumReply" />
+          <ScalarProperty Name="NumRead" ColumnName="NumRead" />
+          <ScalarProperty Name="AssignTime" ColumnName="AssignTime" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="TimeUpdate" ColumnName="TimeUpdate" />
+          <ScalarProperty Name="IsHide" ColumnName="IsHide" />
+          <ScalarProperty Name="IsClose" ColumnName="IsClose" />
+          <ScalarProperty Name="OriginalLink" ColumnName="OriginalLink" />
+          <ScalarProperty Name="Note" ColumnName="Note" />
+          <ScalarProperty Name="IP" ColumnName="IP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AdvWork_Tmp">
+      <EntityTypeMapping TypeName="AdvServicesModel.AdvWork_Tmp">
+        <MappingFragment StoreEntitySet="AdvWork_Tmp">
+          <ScalarProperty Name="AdvID" ColumnName="AdvID" />
+          <ScalarProperty Name="Header" ColumnName="Header" />
+          <ScalarProperty Name="Contain" ColumnName="Contain" />
+          <ScalarProperty Name="ContactInfo" ColumnName="ContactInfo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AdvWorkDetails">
+      <EntityTypeMapping TypeName="AdvServicesModel.AdvWorkDetail">
+        <MappingFragment StoreEntitySet="AdvWorkDetail">
+          <ScalarProperty Name="AdvDetailID" ColumnName="AdvDetailID" />
+          <ScalarProperty Name="AdvID" ColumnName="AdvID" />
+          <ScalarProperty Name="AccID" ColumnName="AccID" />
+          <ScalarProperty Name="Header" ColumnName="Header" />
+          <ScalarProperty Name="Contain" ColumnName="Contain" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="IsHide" ColumnName="IsHide" />
+          <ScalarProperty Name="IsClose" ColumnName="IsClose" />
+          <ScalarProperty Name="IP" ColumnName="IP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AdvWorkDetail_Tmp">
+      <EntityTypeMapping TypeName="AdvServicesModel.AdvWorkDetail_Tmp">
+        <MappingFragment StoreEntitySet="AdvWorkDetail_Tmp">
+          <ScalarProperty Name="AdvDetailID" ColumnName="AdvDetailID" />
+          <ScalarProperty Name="Header" ColumnName="Header" />
+          <ScalarProperty Name="Contain" ColumnName="Contain" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ChatBoxes">
+      <EntityTypeMapping TypeName="AdvServicesModel.ChatBox">
+        <MappingFragment StoreEntitySet="ChatBox">
+          <ScalarProperty Name="ChatID" ColumnName="ChatID" />
+          <ScalarProperty Name="AccID" ColumnName="AccID" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Contain" ColumnName="Contain" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="emails">
+      <EntityTypeMapping TypeName="AdvServicesModel.email">
+        <MappingFragment StoreEntitySet="email">
+          <ScalarProperty Name="EmailAddress" ColumnName="EmailAddress" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="YahooNick" ColumnName="YahooNick" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="On_User">
+      <EntityTypeMapping TypeName="AdvServicesModel.On_User">
+        <MappingFragment StoreEntitySet="On_User">
+          <ScalarProperty Name="on_userID" ColumnName="on_userID" />
+          <ScalarProperty Name="on_sessionid" ColumnName="on_sessionid" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="reload_time" ColumnName="reload_time" />
+          <ScalarProperty Name="ServerID" ColumnName="ServerID" />
+          <ScalarProperty Name="AccRoleID" ColumnName="AccRoleID" />
+          <ScalarProperty Name="IsKickedOut" ColumnName="IsKickedOut" />
+          <ScalarProperty Name="LoginDate" ColumnName="LoginDate" />
+          <ScalarProperty Name="IP" ColumnName="IP" />
+          <ScalarProperty Name="Domain" ColumnName="Domain" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ref_Banner">
+      <EntityTypeMapping TypeName="AdvServicesModel.Ref_Banner">
+        <MappingFragment StoreEntitySet="Ref_Banner">
+          <ScalarProperty Name="BannerID" ColumnName="BannerID" />
+          <ScalarProperty Name="BannerName" ColumnName="BannerName" />
+          <ScalarProperty Name="HyperLink" ColumnName="HyperLink" />
+          <ScalarProperty Name="MenuID" ColumnName="MenuID" />
+          <ScalarProperty Name="Position" ColumnName="Position" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ref_District">
+      <EntityTypeMapping TypeName="AdvServicesModel.Ref_District">
+        <MappingFragment StoreEntitySet="Ref_District">
+          <ScalarProperty Name="DistrictID" ColumnName="DistrictID" />
+          <ScalarProperty Name="DistrictName" ColumnName="DistrictName" />
+          <ScalarProperty Name="ProvinceID" ColumnName="ProvinceID" />
+          <ScalarProperty Name="Lang" ColumnName="Lang" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ref_Info">
+      <EntityTypeMapping TypeName="AdvServicesModel.Ref_Info">
+        <MappingFragment StoreEntitySet="Ref_Info">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Info" ColumnName="Info" />
+          <ScalarProperty Name="Lang" ColumnName="Lang" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ref_Menu">
+      <EntityTypeMapping TypeName="AdvServicesModel.Ref_Menu">
+        <MappingFragment StoreEntitySet="Ref_Menu">
+          <ScalarProperty Name="MenuID" ColumnName="MenuID" />
+          <ScalarProperty Name="MenuName" ColumnName="MenuName" />
+          <ScalarProperty Name="Lang" ColumnName="Lang" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ref_Province">
+      <EntityTypeMapping TypeName="AdvServicesModel.Ref_Province">
+        <MappingFragment StoreEntitySet="Ref_Province">
+          <ScalarProperty Name="ProvinceID" ColumnName="ProvinceID" />
+          <ScalarProperty Name="ProvinceName" ColumnName="ProvinceName" />
+          <ScalarProperty Name="Lang" ColumnName="Lang" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ref_Type">
+      <EntityTypeMapping TypeName="AdvServicesModel.Ref_Type">
+        <MappingFragment StoreEntitySet="Ref_Type">
+          <ScalarProperty Name="TypeID" ColumnName="TypeID" />
+          <ScalarProperty Name="TypeName" ColumnName="TypeName" />
+          <ScalarProperty Name="Lang" ColumnName="Lang" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ref_Unicode">
+      <EntityTypeMapping TypeName="AdvServicesModel.Ref_Unicode">
+        <MappingFragment StoreEntitySet="Ref_Unicode">
+          <ScalarProperty Name="UniID" ColumnName="UniID" />
+          <ScalarProperty Name="UniName" ColumnName="UniName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="AdvServicesModel.sysdiagram">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

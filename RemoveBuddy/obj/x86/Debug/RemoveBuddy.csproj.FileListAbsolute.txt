@@ -1,0 +1,14 @@
+D:\Test\YahooIMAPI\RemoveBuddy\bin\Debug\RemoveBuddy.exe
+D:\Test\YahooIMAPI\RemoveBuddy\bin\Debug\RemoveBuddy.pdb
+D:\Test\YahooIMAPI\RemoveBuddy\bin\Debug\YahooIMAPI.dll
+D:\Test\YahooIMAPI\RemoveBuddy\bin\Debug\Newtonsoft.Json.dll
+D:\Test\YahooIMAPI\RemoveBuddy\bin\Debug\Json.NET Dynamic Extensions.exe
+D:\Test\YahooIMAPI\RemoveBuddy\bin\Debug\YahooIMAPI.pdb
+D:\Test\YahooIMAPI\RemoveBuddy\bin\Debug\Json.NET Dynamic Extensions.pdb
+D:\Test\YahooIMAPI\RemoveBuddy\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Test\YahooIMAPI\RemoveBuddy\obj\x86\Debug\RemoveBuddy.Properties.Resources.resources
+D:\Test\YahooIMAPI\RemoveBuddy\obj\x86\Debug\RemoveBuddy.RemoveBuddy.resources
+D:\Test\YahooIMAPI\RemoveBuddy\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Test\YahooIMAPI\RemoveBuddy\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Test\YahooIMAPI\RemoveBuddy\obj\x86\Debug\RemoveBuddy.exe
+D:\Test\YahooIMAPI\RemoveBuddy\obj\x86\Debug\RemoveBuddy.pdb

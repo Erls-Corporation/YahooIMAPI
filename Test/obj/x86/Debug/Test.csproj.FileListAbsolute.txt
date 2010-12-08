@@ -1,0 +1,11 @@
+D:\Test\YahooIMAPI\Test\bin\Debug\Test.exe
+D:\Test\YahooIMAPI\Test\bin\Debug\Test.pdb
+D:\Test\YahooIMAPI\Test\bin\Debug\Json.NET Dynamic Extensions.exe
+D:\Test\YahooIMAPI\Test\bin\Debug\Newtonsoft.Json.dll
+D:\Test\YahooIMAPI\Test\bin\Debug\YahooIMAPI.dll
+D:\Test\YahooIMAPI\Test\bin\Debug\Json.NET Dynamic Extensions.pdb
+D:\Test\YahooIMAPI\Test\bin\Debug\YahooIMAPI.pdb
+D:\Test\YahooIMAPI\Test\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Test\YahooIMAPI\Test\obj\x86\Debug\Test.exe
+D:\Test\YahooIMAPI\Test\obj\x86\Debug\Test.pdb
+D:\Test\YahooIMAPI\Test\bin\Debug\Test.exe.config
