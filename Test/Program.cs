@@ -26,11 +26,13 @@ namespace Test
 
             //engine.SendMessage("vhtuan81", "Ban muon lam giau? Ban muon tim ban, tim nguoi yeu, tim mot nua cua doi minh? Ban muon tim ban tam su moi van de trong cuoc song? Muon lam quen voi ban be khap noi tren ca nuoc va toan the gioi? Dang tin MUA BAN nhanh chong, chinh xac? Hay den voi chung toi http://VietInfo68.com");
 
+            int Count = 0;
             Test.EmailListEntities _entities = new Test.EmailListEntities();
             var data = from a in _entities.People where a.YahooNick != "" select a;
             foreach (var item in data)
             {
                 engine.SendMessage(item.YahooNick, "Ban muon lam giau? Ban muon tim ban, tim nguoi yeu, tim mot nua cua doi minh? Ban muon tim ban tam su moi van de trong cuoc song? Muon lam quen voi ban be khap noi tren ca nuoc va toan the gioi? Dang tin MUA BAN nhanh chong, chinh xac? Hay den voi chung toi http://VietInfo68.com");
+                Count++;
             }
 
             //Test.AdvServicesEntities _entities = new Test.AdvServicesEntities();
@@ -49,7 +51,7 @@ namespace Test
             //engine.AddContact("someonenick");
             //engine.DeleteContact("someonenick");
             //engine.ResponseContact("someonenick", false, "I don't know who you are");
-            Console.WriteLine("Finished! Press enter key to terminate!");
+            Console.WriteLine(Count.ToString() + "Finished! Press enter key to terminate!");
             Console.ReadLine();
             engine.SignOff();
         }
