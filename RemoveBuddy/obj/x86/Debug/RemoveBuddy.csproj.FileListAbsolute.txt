@@ -12,3 +12,17 @@ D:\Test\YahooIMAPI\RemoveBuddy\obj\x86\Debug\GenerateResource.read.1.tlog
 D:\Test\YahooIMAPI\RemoveBuddy\obj\x86\Debug\GenerateResource.write.1.tlog
 D:\Test\YahooIMAPI\RemoveBuddy\obj\x86\Debug\RemoveBuddy.exe
 D:\Test\YahooIMAPI\RemoveBuddy\obj\x86\Debug\RemoveBuddy.pdb
+E:\SMS\Common\YahooIMAPI\RemoveBuddy\bin\Debug\RemoveBuddy.exe
+E:\SMS\Common\YahooIMAPI\RemoveBuddy\bin\Debug\RemoveBuddy.pdb
+E:\SMS\Common\YahooIMAPI\RemoveBuddy\bin\Debug\YahooIMAPI.dll
+E:\SMS\Common\YahooIMAPI\RemoveBuddy\bin\Debug\Newtonsoft.Json.dll
+E:\SMS\Common\YahooIMAPI\RemoveBuddy\bin\Debug\Json.NET Dynamic Extensions.exe
+E:\SMS\Common\YahooIMAPI\RemoveBuddy\bin\Debug\YahooIMAPI.pdb
+E:\SMS\Common\YahooIMAPI\RemoveBuddy\bin\Debug\Json.NET Dynamic Extensions.pdb
+E:\SMS\Common\YahooIMAPI\RemoveBuddy\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\SMS\Common\YahooIMAPI\RemoveBuddy\obj\x86\Debug\RemoveBuddy.Properties.Resources.resources
+E:\SMS\Common\YahooIMAPI\RemoveBuddy\obj\x86\Debug\RemoveBuddy.RemoveBuddy.resources
+E:\SMS\Common\YahooIMAPI\RemoveBuddy\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\SMS\Common\YahooIMAPI\RemoveBuddy\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\SMS\Common\YahooIMAPI\RemoveBuddy\obj\x86\Debug\RemoveBuddy.exe
+E:\SMS\Common\YahooIMAPI\RemoveBuddy\obj\x86\Debug\RemoveBuddy.pdb
