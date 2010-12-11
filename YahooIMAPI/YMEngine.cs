@@ -296,13 +296,14 @@ namespace YahooIMAPI
             url = url.Replace("{{USER}}", user);
 
             //additional header
-
+            //message = GetUnicodeEscape(message);
             string postdata = string.Format("{{\"message\" : \"{0}\"}}", message);
 
             _webClient.JSONContent = true;
             try
             {
-                _webClient.UploadString(url, postdata);
+                string result=_webClient.UploadString(url, postdata);
+            
             }
             catch { return false; }
 
@@ -437,7 +438,6 @@ namespace YahooIMAPI
             url += "&sid=" + _signonData.sessionId;
             url = url.Replace("{{USER}}", user);
 
-
             string postdata = string.Format("{{\"authReason\" : \"{0}\"}}", reason);
 
             //additional header
@@ -457,6 +457,32 @@ namespace YahooIMAPI
         public string GetLastError()
         {
             return this._error;
+        }
+        #endregion
+
+
+        #region Utility
+
+        private string GetUnicodeEscape(string value)
+        {
+            var sb = new StringBuilder();
+            foreach (var c in value)
+            {
+                if (c <= 0x7f)
+                    sb.Append(c);
+                else
+                {
+                    int intValue = Convert.ToInt32(c);
+                    string escape = intValue.ToString("x2");
+                    for (int i = escape.Length; i < 4; i++)
+                    {
+                        escape = "0" + escape;
+                    }
+
+                    sb.Append("\\u" + escape);
+                }
+            }
+            return sb.ToString();
         }
         #endregion
 
