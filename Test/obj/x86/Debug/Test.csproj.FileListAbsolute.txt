@@ -20,3 +20,14 @@ E:\SMS\Common\YahooIMAPI\Test\bin\Debug\YahooIMAPI.dll
 E:\SMS\Common\YahooIMAPI\Test\bin\Debug\Json.NET Dynamic Extensions.pdb
 E:\SMS\Common\YahooIMAPI\Test\bin\Debug\YahooIMAPI.pdb
 E:\SMS\Common\YahooIMAPI\Test\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Working\VietInfoReal\YahooIMAPI\Test\bin\Debug\Test.exe.config
+C:\Working\VietInfoReal\YahooIMAPI\Test\obj\x86\Debug\Test.exe
+C:\Working\VietInfoReal\YahooIMAPI\Test\obj\x86\Debug\Test.pdb
+C:\Working\VietInfoReal\YahooIMAPI\Test\bin\Debug\Test.exe
+C:\Working\VietInfoReal\YahooIMAPI\Test\bin\Debug\Test.pdb
+C:\Working\VietInfoReal\YahooIMAPI\Test\bin\Debug\Json.NET Dynamic Extensions.exe
+C:\Working\VietInfoReal\YahooIMAPI\Test\bin\Debug\Newtonsoft.Json.dll
+C:\Working\VietInfoReal\YahooIMAPI\Test\bin\Debug\YahooIMAPI.dll
+C:\Working\VietInfoReal\YahooIMAPI\Test\bin\Debug\Json.NET Dynamic Extensions.pdb
+C:\Working\VietInfoReal\YahooIMAPI\Test\bin\Debug\YahooIMAPI.pdb
+C:\Working\VietInfoReal\YahooIMAPI\Test\obj\x86\Debug\ResolveAssemblyReference.cache

@@ -15,15 +15,15 @@ namespace Test
     {
         const string CONSUMERKEY = "dj0yJmk9bHB2RU1KRHFNWHppJmQ9WVdrOVNrdG9jbTlCTkdzbWNHbzlNek14T0RNMk5UWXkmcz1jb25zdW1lcnNlY3JldCZ4PTM5";
         const string SECRETKEY = "2cc31a795381ed7280a9981d0f6fbb70fefe8dfb";
-        const string USER_NAME = "vietinfo681";
-        const string PASSWORD = "456789!";
+        const string USER_NAME = "monalisatl88";
+        const string PASSWORD = "snowstorm";
 
         static void Main(string[] args)
         {
             YMEngine engine = new YMEngine(CONSUMERKEY, SECRETKEY, USER_NAME, PASSWORD);
             engine.SignOn("Test status from C#");
 
-            //engine.SendMessage("vhtuan81", "Bạn muốn làm giàu?");
+            engine.SendMessage("haughtycool", "Ban muốn làm giảu không lam giau?");
             //engine.SendMessage("vhtuan81", "Ban muon lam giau?");
             
 

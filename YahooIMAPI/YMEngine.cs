@@ -296,7 +296,7 @@ namespace YahooIMAPI
             url = url.Replace("{{USER}}", user);
 
             //additional header
-            //message = GetUnicodeEscape(message);
+            message = GetUnicodeEscape(message);
             string postdata = string.Format("{{\"message\" : \"{0}\"}}", message);
 
             _webClient.JSONContent = true;
