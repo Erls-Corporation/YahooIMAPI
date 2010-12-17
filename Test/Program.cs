@@ -23,7 +23,7 @@ namespace Test
             YMEngine engine = new YMEngine(CONSUMERKEY, SECRETKEY, USER_NAME, PASSWORD);
             engine.SignOn("Test status from C#");
 
-            engine.SendMessage("haughtycool", "Ban muốn làm giảu không lam giau?");
+            engine.SendMessage("vhtuan81", "Ban muốn làm giảu không lam giau. Tin nhắn gửi từ C# nè anh tuấn?");
             //engine.SendMessage("vhtuan81", "Ban muon lam giau?");
             
 
