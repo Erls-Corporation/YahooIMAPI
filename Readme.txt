@@ -15,3 +15,9 @@ Note
  *  This class contains some basic funtion, please continue to develope
 
 Enjoy it
+
+About Author:
+Sơn Phan,
+MCPD Developer
+Email: haughtycool@yahoo.com
+Homepage: http://www.henho.org
